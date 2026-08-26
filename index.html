@@ -232,6 +232,7 @@
 
     <!-- ==================== TAB 4: PAINEL T&D & GAPS ==================== -->
     <div id="tab-td" class="space-y-6 hidden">
+      <!-- Matriz Skill x Will -->
       <div>
         <h3 class="text-sm font-bold text-slate-200 mb-3 flex items-center gap-2">
           <span class="w-2 h-2 rounded-full bg-purple-500"></span> Matriz de Performance Skill x Will (Mapeamento PDI)
@@ -260,6 +261,7 @@
         </div>
       </div>
 
+      <!-- Perfis & Gaps de Treinamento -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div class="card-dark p-5 rounded-2xl">
           <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
@@ -310,6 +312,7 @@
         </div>
       </div>
 
+      <!-- Conversão por Faixa de Nota -->
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div class="card-dark p-5 rounded-2xl lg:col-span-3">
           <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
@@ -400,8 +403,6 @@
   </main>
 
   <script>
-    const API_URL = "https://script.google.com/a/macros/quintoandar.com.br/s/AKfycbwzmn75HiOn3gL_6iWjRQg8dNcsHUJdKI37R6Kt1kGqpbnfFu2gzmKd1GyL19MzzpCr/exec";
-
     let dbData = { aux: [], general: [], checklist: [], ncgs: [], feedback: [], contestacoes: [] };
     let auxMap = {};
 
@@ -451,23 +452,26 @@
       return false;
     }
 
+    // Leitura dos dados via Fetch Local do arquivo dados.json
     window.onload = function() {
-      fetch(API_URL)
+      fetch('dados.json')
         .then(response => {
-          if (!response.ok) throw new Error("Erro na requisição: " + response.statusText);
+          if (!response.ok) {
+            throw new Error("Não foi possível carregar o arquivo dados.json.");
+          }
           return response.json();
         })
         .then(data => {
           onDataLoaded(data);
         })
         .catch(err => {
-          alert("Erro ao carregar dados da planilha: " + err.message);
           console.error(err);
+          alert("Erro ao carregar dados da monitoria: " + err.message);
         });
     };
 
-    function onDataLoaded(dataReceived) {
-      dbData = typeof dataReceived === 'string' ? JSON.parse(dataReceived) : dataReceived;
+    function onDataLoaded(data) {
+      dbData = (typeof data === 'string') ? JSON.parse(data) : data;
       
       (dbData.aux || []).forEach(row => {
         const email = getEmail(row);
@@ -544,7 +548,7 @@
       const startDate = document.getElementById('filter-start-date').value;
       const endDate = document.getElementById('filter-end-date').value;
 
-      const filteredGen = dbData.general.filter(row => {
+      const filteredGen = (dbData.general || []).filter(row => {
         const id = getID(row);
         if (!id) return false;
         const email = getEmail(row);
@@ -561,7 +565,7 @@
         return true;
       });
 
-      const filteredNcgs = dbData.ncgs.filter(row => {
+      const filteredNcgs = (dbData.ncgs || []).filter(row => {
         const email = getEmail(row);
         const auxInfo = auxMap[email] || { name: email, leader: 'Não Definido' };
 
@@ -576,7 +580,7 @@
         return true;
       });
 
-      const filteredChecklist = dbData.checklist.filter(row => {
+      const filteredChecklist = (dbData.checklist || []).filter(row => {
         const email = getEmail(row);
         const auxInfo = auxMap[email] || { name: email, leader: 'Não Definido' };
 
@@ -591,7 +595,7 @@
         return true;
       });
 
-      const filteredFeedback = dbData.feedback.filter(r => {
+      const filteredFeedback = (dbData.feedback || []).filter(r => {
         const email = getEmail(r);
         const auxInfo = auxMap[email] || { name: email, leader: 'Não Definido' };
 
