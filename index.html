@@ -425,9 +425,18 @@
 
     function parseNumericScore(valStr) {
       if (valStr === undefined || valStr === null || valStr === '') return NaN;
-      const cleaned = String(valStr).replace('%', '').replace(',', '.').trim();
-      const num = parseFloat(cleaned);
-      return isNaN(num) ? NaN : num;
+      const str = String(valStr).trim();
+      const hasPercent = str.includes('%');
+      const cleaned = str.replace('%', '').replace(',', '.').trim();
+      let num = parseFloat(cleaned);
+      if (isNaN(num)) return NaN;
+
+      // Se o valor não possui '%' e está entre 0 (exclusivo) e 1 (inclusive),
+      // trata-se de um valor exportado do Google Sheets em formato decimal (ex: 0.68 -> 68%)
+      if (!hasPercent && num > 0 && num <= 1) {
+        num = num * 100;
+      }
+      return num;
     }
 
     function getEmail(row) {
@@ -495,7 +504,6 @@
     function onDataLoaded(rawJson) {
       dbData = normalizeSheetKeys(rawJson);
       
-      // Mapeia notas médias e quartis do Checklist como fallback automático
       const chkScoresGroup = {};
       (dbData.checklist || []).forEach(r => {
         const aid = getID(r);
