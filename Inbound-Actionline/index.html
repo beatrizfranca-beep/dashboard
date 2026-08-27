@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Qualidade | Gestão de Qualidade & Performance</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #0b0f17; color: #f1f5f9; }
+    .card-dark { background-color: #161e2e; border: 1px solid #232d3f; }
+    .badge-healthy { background-color: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-warning { background-color: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); }
+    .badge-critical { background-color: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3); }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+  </style>
+</head>
+<body class="p-4 md:p-6 min-h-screen">
+
+  <!-- Header & Navigation -->
+  <header class="flex flex-col xl:flex-row justify-between items-start xl:items-center pb-5 mb-5 border-b border-slate-800 gap-4">
+    <div class="flex items-center space-x-3">
+      <div class="p-2.5 bg-indigo-600 rounded-xl font-bold text-white text-lg shadow-lg shadow-indigo-500/30">CT</div>
+      <div>
+        <h1 class="text-xl font-bold tracking-tight text-white">Painel Qualidade <span class="text-xs font-semibold text-indigo-400 bg-indigo-950/80 border border-indigo-800 px-2.5 py-0.5 rounded-full ml-2">EXECUTIVE</span></h1>
+        <p class="text-xs text-slate-400">Qualidade • Performance • T&D • ROI de Negócio</p>
+        <p class="text-[11px] text-amber-400/90 font-medium mt-1 flex items-center gap-1">
+          <span>⚠️</span> esse site utiliza de IA e alguns dados podem apresentar falhas
+        </p>
+      </div>
+    </div>
+
+    <!-- Tab Buttons (6 Abas) -->
+    <div class="flex flex-wrap bg-slate-900/90 p-1 rounded-xl border border-slate-800 text-xs font-medium gap-1">
+      <button id="btn-tab-controle" onclick="switchTab('controle')" class="px-3 py-2 rounded-lg text-white bg-indigo-600 font-semibold shadow transition-all">Painel de Controle</button>
+      <button id="btn-tab-analistas" onclick="switchTab('analistas')" class="px-3 py-2 rounded-lg text-slate-400 hover:text-white transition-all">Painel Analistas</button>
+      <button id="btn-tab-qualidade" onclick="switchTab('qualidade')" class="px-3 py-2 rounded-lg text-slate-400 hover:text-white transition-all">Painel de Qualidade</button>
+      <button id="btn-tab-td" onclick="switchTab('td')" class="px-3 py-2 rounded-lg text-slate-400 hover:text-white transition-all">T&D & Competências</button>
+      <button id="btn-tab-negocio" onclick="switchTab('negocio')" class="px-3 py-2 rounded-lg text-slate-400 hover:text-white transition-all">Qualidade x Negócio (ROI)</button>
+      <button id="btn-tab-contestacoes" onclick="switchTab('contestacoes')" class="px-3 py-2 rounded-lg text-slate-400 hover:text-white transition-all">Contestações & Calibragem</button>
+    </div>
+  </header>
+
+  <!-- Filter Bar -->
+  <section class="card-dark p-4 rounded-xl mb-6 shadow-md">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-xs">
+      <div>
+        <label class="block text-slate-400 mb-1 font-medium">Supervisor (Liderança)</label>
+        <select id="filter-supervisor" onchange="applyFilters()" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-slate-200 focus:outline-none focus:border-indigo-500">
+          <option value="">Todos os Supervisores</option>
+        </select>
+      </div>
+      <div>
+        <label class="block text-slate-400 mb-1 font-medium">Analista</label>
+        <select id="filter-analyst" onchange="applyFilters()" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-slate-200 focus:outline-none focus:border-indigo-500">
+          <option value="">Todos os Analistas</option>
+        </select>
+      </div>
+      <div>
+        <label class="block text-slate-400 mb-1 font-medium">Data Inicial</label>
+        <input type="date" id="filter-start-date" onchange="applyFilters()" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-slate-200 focus:outline-none focus:border-indigo-500">
+      </div>
+      <div>
+        <label class="block text-slate-400 mb-1 font-medium">Data Final</label>
+        <input type="date" id="filter-end-date" onchange="applyFilters()" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-slate-200 focus:outline-none focus:border-indigo-500">
+      </div>
+    </div>
+  </section>
+
+  <!-- Loading State -->
+  <div id="loading" class="text-center py-20">
+    <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-indigo-500 border-t-transparent"></div>
+    <p class="mt-3 text-sm text-slate-400">Carregando dados consolidados do repositório GitHub...</p>
+  </div>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main id="dashboard-content" class="hidden">
+
+    <!-- TAB 1: PAINEL DE CONTROLE -->
+    <div id="tab-controle" class="space-y-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="card-dark p-4 rounded-2xl relative overflow-hidden">
+          <div class="flex justify-between items-start mb-2">
+            <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Vol. Monitorias</span>
+            <span class="badge-healthy px-2 py-0.5 rounded-full text-[10px] font-bold">TOTAL</span>
+          </div>
+          <div id="kpi-volume" class="text-3xl font-extrabold text-white">0</div>
+          <p class="text-[11px] text-slate-400 mt-2">IDs únicos na aba general data</p>
+        </div>
+
+        <div class="card-dark p-4 rounded-2xl relative overflow-hidden">
+          <div class="flex justify-between items-start mb-2">
+            <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Volume NCG Geral</span>
+            <span id="badge-ncg" class="badge-warning px-2 py-0.5 rounded-full text-[10px] font-bold">DESVIOS</span>
+          </div>
+          <div id="kpi-ncg" class="text-3xl font-extrabold text-white">0</div>
+          <p class="text-[11px] text-slate-400 mt-2">Itens 'Não Conforme' na aba NCGs</p>
+        </div>
+
+        <div class="card-dark p-4 rounded-2xl relative overflow-hidden">
+          <div class="flex justify-between items-start mb-2">
+            <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Feedbacks Aplicados</span>
+            <span class="badge-healthy px-2 py-0.5 rounded-full text-[10px] font-bold">LIDERANÇA</span>
+          </div>
+          <div id="kpi-feedback" class="text-3xl font-extrabold text-white">0</div>
+          <p class="text-[11px] text-slate-400 mt-2">Registros de feedback concluídos</p>
+        </div>
+
+        <div class="card-dark p-4 rounded-2xl relative overflow-hidden">
+          <div class="flex justify-between items-start mb-2">
+            <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Nota Média Qualidade</span>
+            <span id="badge-score" class="badge-healthy px-2 py-0.5 rounded-full text-[10px] font-bold">MÉDIA</span>
+          </div>
+          <div id="kpi-score" class="text-3xl font-extrabold text-white">0.0%</div>
+          <p class="text-[11px] text-slate-400 mt-2">Score de conformidade geral da equipe</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="card-dark p-5 rounded-2xl lg:col-span-2">
+          <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Desempenho Por Analista
+          </h3>
+          <div class="overflow-x-auto max-h-80">
+            <table class="w-full text-left text-xs">
+              <thead class="text-slate-400 border-b border-slate-800 bg-slate-900/50 sticky top-0">
+                <tr>
+                  <th class="p-2.5">Analista</th>
+                  <th class="p-2.5">Supervisor</th>
+                  <th class="p-2.5 text-center">Monitorias</th>
+                  <th class="p-2.5 text-center">NCGs</th>
+                  <th class="p-2.5 text-right">Nota Média</th>
+                </tr>
+              </thead>
+              <tbody id="table-analysts-summary" class="divide-y divide-slate-800/60 text-slate-300">
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card-dark p-5 rounded-2xl">
+          <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Distribuição por Quartil
+          </h3>
+          <div id="quartil-container" class="space-y-4 pt-2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: PAINEL ANALISTAS -->
+    <div id="tab-analistas" class="space-y-6 hidden">
+      <div class="card-dark p-5 rounded-2xl">
+        <h3 class="text-sm font-bold text-slate-200 mb-4">Visão Detalhada do Analista & Liderança</h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="text-slate-400 border-b border-slate-800 bg-slate-900/50">
+              <tr>
+                <th class="p-3">E-mail do Analista</th>
+                <th class="p-3">Nome da Liderança (Supervisor)</th>
+                <th class="p-3 text-center">Quartil Atual</th>
+                <th class="p-3 text-right">Nota de Qualidade</th>
+              </tr>
+            </thead>
+            <tbody id="table-analyst-detail" class="divide-y divide-slate-800/60 text-slate-300">
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card-dark p-5 rounded-2xl">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-sm font-bold text-slate-200 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-red-500"></span> Reincidentes de Apontamento (Apontamentos Recorrentes)
+          </h3>
+          <span class="text-xs text-slate-400">Itens com 2 ou mais não conformidades</span>
+        </div>
+        <div class="overflow-x-auto max-h-80">
+          <table class="w-full text-left text-xs">
+            <thead class="text-slate-400 border-b border-slate-800 bg-slate-900/50 sticky top-0">
+              <tr>
+                <th class="p-3">Analista</th>
+                <th class="p-3">Critério / Apontamento</th>
+                <th class="p-3 text-center">Total de Erros</th>
+                <th class="p-3 text-right">Gravidade / Nível</th>
+              </tr>
+            </thead>
+            <tbody id="table-reincidents" class="divide-y divide-slate-800/60 text-slate-300">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: PAINEL DE QUALIDADE -->
+    <div id="tab-qualidade" class="grid grid-cols-1 md:grid-cols-2 gap-6 hidden">
+      <div class="card-dark p-5 rounded-2xl">
+        <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-amber-500"></span> Volume por Critérios com Apontamento (Checklist)
+        </h3>
+        <div class="overflow-x-auto max-h-96">
+          <table class="w-full text-left text-xs">
+            <thead class="text-slate-400 border-b border-slate-800 bg-slate-900/50 sticky top-0">
+              <tr>
+                <th class="p-3">Critério Avaliado</th>
+                <th class="p-3 text-center">Qtd Não Conforme</th>
+                <th class="p-3 text-right">% do Total</th>
+              </tr>
+            </thead>
+            <tbody id="table-checklist-errors" class="divide-y divide-slate-800/60 text-slate-300">
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card-dark p-5 rounded-2xl">
+        <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-red-500"></span> Volume por NCG (Não Conformidade Grave)
+        </h3>
+        <div class="overflow-x-auto max-h-96">
+          <table class="w-full text-left text-xs">
+            <thead class="text-slate-400 border-b border-slate-800 bg-slate-900/50 sticky top-0">
+              <tr>
+                <th class="p-3">Critério NCG</th>
+                <th class="p-3 text-center">Ocorrências</th>
+                <th class="p-3 text-right">Status</th>
+              </tr>
+            </thead>
+            <tbody id="table-ncg-errors" class="divide-y divide-slate-800/60 text-slate-300">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: PAINEL T&D & GAPS -->
+    <div id="tab-td" class="space-y-6 hidden">
+      <div>
+        <h3 class="text-sm font-bold text-slate-200 mb-3 flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-purple-500"></span> Matriz de Performance Skill x Will (Mapeamento PDI)
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="card-dark p-4 rounded-2xl border-l-4 border-l-emerald-500">
+            <span class="text-xs font-semibold text-emerald-400">Skill Alta / Will Alto</span>
+            <div id="sw-high-high" class="text-2xl font-extrabold text-white mt-1">0</div>
+            <p class="text-[11px] text-slate-400 mt-1">Alta Performance • Promover / Mentores</p>
+          </div>
+          <div class="card-dark p-4 rounded-2xl border-l-4 border-l-blue-500">
+            <span class="text-xs font-semibold text-blue-400">Skill Baixa / Will Alto</span>
+            <div id="sw-low-high" class="text-2xl font-extrabold text-white mt-1">0</div>
+            <p class="text-[11px] text-slate-400 mt-1">Alto Engajamento • Foco em Treino Técnico</p>
+          </div>
+          <div class="card-dark p-4 rounded-2xl border-l-4 border-l-amber-500">
+            <span class="text-xs font-semibold text-amber-400">Skill Alta / Will Baixo</span>
+            <div id="sw-high-low" class="text-2xl font-extrabold text-white mt-1">0</div>
+            <p class="text-[11px] text-slate-400 mt-1">Domínio Técnico • Foco em Motivação/Feedback</p>
+          </div>
+          <div class="card-dark p-4 rounded-2xl border-l-4 border-l-red-500">
+            <span class="text-xs font-semibold text-red-400">Skill Baixa / Will Baixo</span>
+            <div id="sw-low-low" class="text-2xl font-extrabold text-white mt-1">0</div>
+            <p class="text-[11px] text-slate-400 mt-1">Atenção Crítica • Plano de Ação Imediato</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="card-dark p-5 rounded-2xl">
+          <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Distribuição do Perfil de Atendimento
+          </h3>
+          <div id="perfil-container" class="space-y-3">
+          </div>
+        </div>
+
+        <div class="card-dark p-5 rounded-2xl">
+          <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-rose-500"></span> Pontos de Melhoria Prioritários para Treinamento
+          </h3>
+          <div class="overflow-x-auto max-h-80">
+            <table class="w-full text-left text-xs">
+              <thead class="text-slate-400 border-b border-slate-800 bg-slate-900/50 sticky top-0">
+                <tr>
+                  <th class="p-2.5">Oportunidade / Gap Identificado</th>
+                  <th class="p-2.5 text-center">Frequência</th>
+                  <th class="p-2.5 text-right">Prioridade T&D</th>
+                </tr>
+              </thead>
+              <tbody id="table-td-gaps" class="divide-y divide-slate-800/60 text-slate-300">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 5: QUALIDADE X NEGÓCIO / ROI -->
+    <div id="tab-negocio" class="space-y-6 hidden">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="card-dark p-4 rounded-2xl">
+          <span class="text-xs font-semibold text-slate-400 uppercase">Taxa de Conversão Geral (monitorias)</span>
+          <div id="roi-conv-total" class="text-3xl font-extrabold text-white mt-1">0.0%</div>
+          <p class="text-[11px] text-slate-400 mt-1">Percentual de leads/atendimentos convertidos</p>
+        </div>
+        <div class="card-dark p-4 rounded-2xl border-l-4 border-l-emerald-500">
+          <span class="text-xs font-semibold text-emerald-400 uppercase">Conversão em Atendimentos SEM NCG</span>
+          <div id="roi-conv-no-ncg" class="text-3xl font-extrabold text-white mt-1">0.0%</div>
+          <p class="text-[11px] text-slate-400 mt-1">Performou dentro das regras operacionais</p>
+        </div>
+        <div class="card-dark p-4 rounded-2xl border-l-4 border-l-red-500">
+          <span class="text-xs font-semibold text-red-400 uppercase">Conversão em Atendimentos COM NCG</span>
+          <div id="roi-conv-ncg" class="text-3xl font-extrabold text-white mt-1">0.0%</div>
+          <p class="text-[11px] text-slate-400 mt-1">Impacto direto da falha grave no resultado</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="card-dark p-5 rounded-2xl lg:col-span-3">
+          <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Correlação: Nota de Qualidade x Taxa de Conversão por Analista
+          </h3>
+          <div class="overflow-x-auto max-h-80">
+            <table class="w-full text-left text-xs">
+              <thead class="text-slate-400 border-b border-slate-800 bg-slate-900/50 sticky top-0">
+                <tr>
+                  <th class="p-3">Analista</th>
+                  <th class="p-3 text-center">Monitorias</th>
+                  <th class="p-3 text-center">Nota Média Qualidade</th>
+                  <th class="p-3 text-center">Convertidos</th>
+                  <th class="p-3 text-right">Taxa de Conversão (%)</th>
+                </tr>
+              </thead>
+              <tbody id="table-roi-analyst" class="divide-y divide-slate-800/60 text-slate-300">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 6: CONTESTAÇÕES & CALIBRAGEM -->
+    <div id="tab-contestacoes" class="space-y-6 hidden">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="card-dark p-4 rounded-2xl">
+          <span class="text-xs font-semibold text-slate-400 uppercase">Total Apontamentos Contestados</span>
+          <div id="kpi-contest-total" class="text-3xl font-extrabold text-white mt-1">0</div>
+          <p class="text-[11px] text-slate-400 mt-1">Solicitações abertas pela operação</p>
+        </div>
+        <div class="card-dark p-4 rounded-2xl border-l-4 border-l-emerald-500">
+          <span class="text-xs font-semibold text-emerald-400 uppercase">Contestações Validadas (Procedentes)</span>
+          <div id="kpi-contest-valid" class="text-3xl font-extrabold text-white mt-1">0</div>
+          <p class="text-[11px] text-slate-400 mt-1">Apontamentos revertidos a favor do analista</p>
+        </div>
+        <div class="card-dark p-4 rounded-2xl border-l-4 border-l-indigo-500">
+          <span class="text-xs font-semibold text-indigo-400 uppercase">Índice de Reversão / Sucesso</span>
+          <div id="kpi-contest-rate" class="text-3xl font-extrabold text-white mt-1">0.0%</div>
+          <p class="text-[11px] text-slate-400 mt-1">% de contestações aceitas pela Qualidade</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="card-dark p-5 rounded-2xl">
+          <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-amber-500"></span> Calibragem: Reversões por Critério
+          </h3>
+          <div class="overflow-x-auto max-h-80">
+            <table class="w-full text-left text-xs">
+              <thead class="text-slate-400 border-b border-slate-800 bg-slate-900/50 sticky top-0">
+                <tr>
+                  <th class="p-3">Critério Contestado</th>
+                  <th class="p-3 text-center">Total Contestações</th>
+                  <th class="p-3 text-center">Validadas</th>
+                  <th class="p-3 text-right">Taxa Reversão (%)</th>
+                </tr>
+              </thead>
+              <tbody id="table-contest-criteria" class="divide-y divide-slate-800/60 text-slate-300">
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card-dark p-5 rounded-2xl">
+          <h3 class="text-sm font-bold text-slate-200 mb-4 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Detalhes das Contestações por Analista
+          </h3>
+          <div class="overflow-x-auto max-h-80">
+            <table class="w-full text-left text-xs">
+              <thead class="text-slate-400 border-b border-slate-800 bg-slate-900/50 sticky top-0">
+                <tr>
+                  <th class="p-3">Analista</th>
+                  <th class="p-3 text-center">Contestações</th>
+                  <th class="p-3 text-center">Aprovadas</th>
+                  <th class="p-3 text-right">Resultado</th>
+                </tr>
+              </thead>
+              <tbody id="table-contest-analyst" class="divide-y divide-slate-800/60 text-slate-300">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+    const JSON_URL = 'https://raw.githubusercontent.com/beatrizfranca-beep/dashboard/main/Inbound-Actionline/dados.json';
+
+    let dbData = { aux: [], general: [], checklist: [], ncgs: [], feedback: [], contestacoes: [] };
+    let auxMap = {};
+    let scoresByAnalysisId = {};
+    let quartilByAnalysisId = {};
+
+    function getFieldValue(row, possibleKeys) {
+      if (!row) return '';
+      const rowKeys = Object.keys(row);
+      for (let key of possibleKeys) {
+        if (row[key] !== undefined && row[key] !== null && String(row[key]).trim() !== '') {
+          return String(row[key]).trim();
+        }
+        const lowerKey = key.toLowerCase();
+        const foundKey = rowKeys.find(k => k.toLowerCase().trim() === lowerKey);
+        if (foundKey && row[foundKey] !== undefined && row[foundKey] !== null && String(row[foundKey]).trim() !== '') {
+          return String(row[foundKey]).trim();
+        }
+      }
+      return '';
+    }
+
+    function parseNumericScore(valStr) {
+      if (valStr === undefined || valStr === null || valStr === '') return NaN;
+      const str = String(valStr).trim();
+      const hasPercent = str.includes('%');
+      const cleaned = str.replace('%', '').replace(',', '.').trim();
+      let num = parseFloat(cleaned);
+      if (isNaN(num)) return NaN;
+
+      if (!hasPercent && num > 0 && num <= 1) {
+        num = num * 100;
+      }
+      return num;
+    }
+
+    function getEmail(row) {
+      return getFieldValue(row, [
+        'primary_analyst_email', 'email', 'E-mail Analista', 'e-mail_analista', 
+        'nome_analista', 'E-mail', 'Email', 'Analista Email', 'AVALIADO', 'EMAIL DO AVALIADO'
+      ]).toLowerCase();
+    }
+
+    function getDateStr(row) {
+      const raw = getFieldValue(row, ['created_at', 'data', 'ts_analysis', 'data_geracao', 'DATA DA AVALIAÇÃO', 'DATA FEEDBACK']);
+      return String(raw).substring(0, 10);
+    }
+
+    function getID(row) {
+      return getFieldValue(row, ['analysis_id', 'reference_id', 'id', 'CÓDIGO AVALIAÇÃO', 'ID (coloquem o ID a ser contestado)']);
+    }
+
+    function isFeedbackApplied(row) {
+      if (!row) return false;
+      const keys = Object.keys(row);
+      for (let k of keys) {
+        const val = String(row[k] || '').toUpperCase().trim();
+        if (val === 'APLICADO' || val.includes('APLICAD')) return true;
+      }
+      return false;
+    }
+
+    window.onload = function() {
+      fetch(JSON_URL)
+        .then(response => {
+          if (!response.ok) throw new Error(`HTTP status: ${response.status}`);
+          return response.json();
+        })
+        .then(rawJson => {
+          onDataLoaded(rawJson);
+        })
+        .catch(err => {
+          console.error("Erro ao carregar JSON:", err);
+          alert("Erro ao carregar dados do GitHub: " + err.message);
+        });
+    };
+
+    function normalizeSheetKeys(rawJson) {
+      const keys = Object.keys(rawJson);
+
+      const findSheet = (priorityList) => {
+        for (let kw of priorityList) {
+          const match = keys.find(k => k.toLowerCase().includes(kw.toLowerCase()));
+          if (match) return rawJson[match];
+        }
+        return [];
+      };
+
+      return {
+        aux: findSheet(['aux', 'apoio']),
+        general: findSheet(['general_data', 'general', 'geral']),
+        checklist: findSheet(['checklist']),
+        ncgs: findSheet(['ncg']),
+        feedback: findSheet(['feedback_consolidado', 'feedback']),
+        contestacoes: findSheet(['contest'])
+      };
+    }
+
+    function onDataLoaded(rawJson) {
+      dbData = normalizeSheetKeys(rawJson);
+      
+      const chkScoresGroup = {};
+      (dbData.checklist || []).forEach(r => {
+        const aid = getID(r);
+        const sc = parseNumericScore(getFieldValue(r, ['nota final', 'nota', 'nota_final']));
+        const q = getFieldValue(r, ['quartil', 'Quartil']);
+
+        if (aid) {
+          if (!chkScoresGroup[aid]) chkScoresGroup[aid] = [];
+          if (!isNaN(sc)) chkScoresGroup[aid].push(sc);
+          if (q && q !== '—' && !quartilByAnalysisId[aid]) quartilByAnalysisId[aid] = q;
+        }
+      });
+
+      Object.keys(chkScoresGroup).forEach(aid => {
+        const arr = chkScoresGroup[aid];
+        if (arr.length > 0) {
+          scoresByAnalysisId[aid] = arr.reduce((a, b) => a + b, 0) / arr.length;
+        }
+      });
+
+      (dbData.aux || []).forEach(row => {
+        const email = getEmail(row);
+        if (email) {
+          const name = getFieldValue(row, ['Analista', 'nome_analista', 'Nome', 'AVALIADO']) || email;
+          const leader = getFieldValue(row, ['Team Leader', 'Líder', 'Lider', 'Supervisor', 'SUPERIOR', 'RESPONSÁVEL FEEDBACK']) || 'Não Definido';
+          auxMap[email] = { name: name, leader: leader };
+        }
+      });
+
+      const allRows = [...(dbData.general || []), ...(dbData.checklist || []), ...(dbData.ncgs || []), ...(dbData.feedback || [])];
+      allRows.forEach(row => {
+        const email = getEmail(row);
+        if (email && !auxMap[email]) {
+          const leader = getFieldValue(row, ['Líder', 'Lider', 'Team Leader', 'Supervisor', 'SUPERIOR', 'RESPONSÁVEL FEEDBACK']) || 'Não Definido';
+          auxMap[email] = { name: email, leader: leader };
+        }
+      });
+
+      populateFilterOptions();
+      document.getElementById('loading').classList.add('hidden');
+      document.getElementById('dashboard-content').classList.remove('hidden');
+      applyFilters();
+    }
+
+    function populateFilterOptions() {
+      const supervisors = new Set();
+      const analysts = new Set();
+
+      Object.values(auxMap).forEach(item => {
+        if (item.leader && item.leader !== 'Não Definido') supervisors.add(item.leader);
+        if (item.name) analysts.add(item.name);
+      });
+
+      (dbData.feedback || []).forEach(r => {
+        const leader = getFieldValue(r, ['Líder', 'Lider', 'Team Leader', 'Supervisor', 'SUPERIOR', 'RESPONSÁVEL FEEDBACK']);
+        if (leader) supervisors.add(leader);
+      });
+
+      const supSelect = document.getElementById('filter-supervisor');
+      supSelect.innerHTML = '<option value="">Todos os Supervisores</option>';
+      Array.from(supervisors).sort().forEach(sup => {
+        const opt = document.createElement('option');
+        opt.value = sup; opt.textContent = sup;
+        supSelect.appendChild(opt);
+      });
+
+      const anaSelect = document.getElementById('filter-analyst');
+      anaSelect.innerHTML = '<option value="">Todos os Analistas</option>';
+      Array.from(analysts).sort().forEach(ana => {
+        const opt = document.createElement('option');
+        opt.value = ana; opt.textContent = ana;
+        anaSelect.appendChild(opt);
+      });
+    }
+
+    function switchTab(tabName) {
+      ['controle', 'analistas', 'qualidade', 'td', 'negocio', 'contestacoes'].forEach(t => {
+        const tabEl = document.getElementById(`tab-${t}`);
+        if (tabEl) tabEl.classList.add('hidden');
+        const btn = document.getElementById(`btn-tab-${t}`);
+        if (btn) btn.className = "px-3 py-2 rounded-lg text-slate-400 hover:text-white transition-all";
+      });
+
+      const activeTab = document.getElementById(`tab-${tabName}`);
+      if (activeTab) activeTab.classList.remove('hidden');
+      const activeBtn = document.getElementById(`btn-tab-${tabName}`);
+      if (activeBtn) activeBtn.className = "px-3 py-2 rounded-lg text-white bg-indigo-600 font-semibold shadow transition-all";
+    }
+
+    function applyFilters() {
+      const selSup = document.getElementById('filter-supervisor').value;
+      const selAna = document.getElementById('filter-analyst').value;
+      const startDate = document.getElementById('filter-start-date').value;
+      const endDate = document.getElementById('filter-end-date').value;
+
+      const filteredGen = dbData.general.filter(row => {
+        const id = getID(row);
+        if (!id) return false;
+        const email = getEmail(row);
+        const auxInfo = auxMap[email] || { name: email, leader: 'Não Definido' };
+        
+        if (selSup && auxInfo.leader !== selSup) return false;
+        if (selAna && auxInfo.name !== selAna && email !== selAna.toLowerCase()) return false;
+        
+        if (startDate || endDate) {
+          const rowDate = getDateStr(row);
+          if (startDate && rowDate < startDate) return false;
+          if (endDate && rowDate > endDate) return false;
+        }
+        return true;
+      });
+
+      const filteredNcgs = dbData.ncgs.filter(row => {
+        const email = getEmail(row);
+        const auxInfo = auxMap[email] || { name: email, leader: 'Não Definido' };
+
+        if (selSup && auxInfo.leader !== selSup) return false;
+        if (selAna && auxInfo.name !== selAna && email !== selAna.toLowerCase()) return false;
+
+        if (startDate || endDate) {
+          const rowDate = getDateStr(row);
+          if (startDate && rowDate < startDate) return false;
+          if (endDate && rowDate > endDate) return false;
+        }
+        return true;
+      });
+
+      const filteredChecklist = dbData.checklist.filter(row => {
+        const email = getEmail(row);
+        const auxInfo = auxMap[email] || { name: email, leader: 'Não Definido' };
+
+        if (selSup && auxInfo.leader !== selSup) return false;
+        if (selAna && auxInfo.name !== selAna && email !== selAna.toLowerCase()) return false;
+
+        if (startDate || endDate) {
+          const rowDate = getDateStr(row);
+          if (startDate && rowDate < startDate) return false;
+          if (endDate && rowDate > endDate) return false;
+        }
+        return true;
+      });
+
+      const filteredFeedback = dbData.feedback.filter(r => {
+        const email = getEmail(r);
+        const auxInfo = auxMap[email] || { name: email, leader: 'Não Definido' };
+
+        if (selSup) {
+          const leader = getFieldValue(r, ['Líder', 'Lider', 'Team Leader', 'Supervisor', 'SUPERIOR', 'RESPONSÁVEL FEEDBACK']);
+          if (leader !== selSup && auxInfo.leader !== selSup) return false;
+        }
+        if (selAna) {
+          const name = getFieldValue(r, ['nome_analista', 'Analista', 'Nome', 'AVALIADO', 'Avaliado']);
+          if (selAna !== name && selAna !== auxInfo.name && email !== selAna.toLowerCase()) return false;
+        }
+        if (startDate || endDate) {
+          const rowDate = getDateStr(r);
+          if (rowDate) {
+            if (startDate && rowDate < startDate) return false;
+            if (endDate && rowDate > endDate) return false;
+          }
+        }
+        return true;
+      });
+
+      renderControlPanel(filteredGen, filteredNcgs, filteredFeedback);
+      renderAnalystPanel(filteredGen, filteredChecklist);
+      renderQualityPanel(filteredChecklist, filteredNcgs);
+      renderTDPanel(filteredGen, filteredFeedback);
+      renderROIPanel(filteredGen, filteredNcgs);
+      renderContestationsPanel(filteredChecklist, dbData.contestacoes || []);
+    }
+
+    function renderControlPanel(genData, ncgData, fbData) {
+      const uniqueIds = new Set(genData.map(r => getID(r)).filter(Boolean));
+      const totalMon = uniqueIds.size;
+
+      const ncgErrors = ncgData.filter(r => {
+        const evalRes = getFieldValue(r, ['NCG_evaluation_result', 'evaluation_result', 'NCG_result']).toLowerCase();
+        return evalRes === 'não conforme';
+      }).length;
+
+      const totalFb = fbData.filter(r => isFeedbackApplied(r)).length;
+
+      let scoreSum = 0, scoreCount = 0;
+      genData.forEach(r => {
+        const id = getID(r);
+        if (!id) return;
+        
+        let sc = parseNumericScore(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
+        if (isNaN(sc) && scoresByAnalysisId[id] !== undefined) {
+          sc = scoresByAnalysisId[id];
+        }
+
+        if (!isNaN(sc)) {
+          scoreSum += sc;
+          scoreCount++;
+        }
+      });
+      const avgScore = scoreCount > 0 ? (scoreSum / scoreCount).toFixed(1) : '0.0';
+
+      document.getElementById('kpi-volume').textContent = totalMon;
+      document.getElementById('kpi-ncg').textContent = ncgErrors;
+      document.getElementById('kpi-feedback').textContent = totalFb;
+      document.getElementById('kpi-score').textContent = avgScore + '%';
+
+      const analystStats = {};
+      genData.forEach(r => {
+        const email = getEmail(r);
+        const auxInfo = auxMap[email] || { name: email, leader: 'Não Cadastrado' };
+        if (!analystStats[email]) {
+          analystStats[email] = { name: auxInfo.name, leader: auxInfo.leader, ids: new Set(), scoreSum: 0, scoreCount: 0, ncgs: 0 };
+        }
+        const id = getID(r);
+        if (id) {
+          analystStats[email].ids.add(id);
+          let sc = parseNumericScore(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
+          if (isNaN(sc) && scoresByAnalysisId[id] !== undefined) {
+            sc = scoresByAnalysisId[id];
+          }
+          if (!isNaN(sc)) {
+            analystStats[email].scoreSum += sc;
+            analystStats[email].scoreCount++;
+          }
+        }
+      });
+
+      ncgData.forEach(r => {
+        const evalRes = getFieldValue(r, ['NCG_evaluation_result', 'evaluation_result', 'NCG_result']).toLowerCase();
+        if (evalRes === 'não conforme') {
+          const email = getEmail(r);
+          if (analystStats[email]) analystStats[email].ncgs++;
+        }
+      });
+
+      const tbodySummary = document.getElementById('table-analysts-summary');
+      tbodySummary.innerHTML = '';
+      Object.values(analystStats).forEach(item => {
+        const countMon = item.ids.size;
+        const avg = item.scoreCount > 0 ? (item.scoreSum / item.scoreCount).toFixed(1) : '0.0';
+        tbodySummary.innerHTML += `
+          <tr class="hover:bg-slate-800/40">
+            <td class="p-2.5 font-medium text-white">${item.name}</td>
+            <td class="p-2.5 text-slate-400">${item.leader}</td>
+            <td class="p-2.5 text-center">${countMon}</td>
+            <td class="p-2.5 text-center ${item.ncgs > 0 ? 'text-red-400 font-bold' : ''}">${item.ncgs}</td>
+            <td class="p-2.5 text-right font-semibold text-emerald-400">${avg}%</td>
+          </tr>
+        `;
+      });
+
+      const quartis = { 'Q1': 0, 'Q2': 0, 'Q3': 0, 'Q4': 0 };
+      genData.forEach(r => {
+        const id = getID(r);
+        const q = quartilByAnalysisId[id] || getFieldValue(r, ['quartil', 'Quartil']);
+        if (q && quartis['Q' + q] !== undefined) {
+          quartis['Q' + q]++;
+        }
+      });
+
+      const qContainer = document.getElementById('quartil-container');
+      qContainer.innerHTML = '';
+      Object.keys(quartis).forEach(qKey => {
+        const qty = quartis[qKey];
+        const pct = totalMon > 0 ? Math.round((qty / totalMon) * 100) : 0;
+        qContainer.innerHTML += `
+          <div>
+            <div class="flex justify-between text-xs mb-1">
+              <span class="font-medium text-slate-300">${qKey}</span>
+              <span class="text-slate-400">${qty} monitorias (${pct}%)</span>
+            </div>
+            <div class="w-full bg-slate-900 rounded-full h-2 overflow-hidden">
+              <div class="bg-indigo-500 h-2 rounded-full" style="width: ${pct}%"></div>
+            </div>
+          </div>
+        `;
+      });
+    }
+
+    function renderAnalystPanel(genData, chkData) {
+      const tbodyDetail = document.getElementById('table-analyst-detail');
+      tbodyDetail.innerHTML = '';
+
+      const detailMap = {};
+      genData.forEach(r => {
+        const email = getEmail(r);
+        const auxInfo = auxMap[email] || { name: email, leader: 'Não Cadastrado' };
+        const id = getID(r);
+        const q = quartilByAnalysisId[id] || getFieldValue(r, ['quartil', 'Quartil']) || 'N/I';
+
+        if (!detailMap[email]) {
+          detailMap[email] = { email: email, name: auxInfo.name, leader: auxInfo.leader, quartil: q, scoreSum: 0, count: 0 };
+        }
+        if (id) {
+          let sc = parseNumericScore(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
+          if (isNaN(sc) && scoresByAnalysisId[id] !== undefined) {
+            sc = scoresByAnalysisId[id];
+          }
+          if (!isNaN(sc)) {
+            detailMap[email].scoreSum += sc;
+            detailMap[email].count++;
+          }
+        }
+      });
+
+      Object.values(detailMap).forEach(item => {
+        const avg = item.count > 0 ? (item.scoreSum / item.count).toFixed(1) : '0.0';
+        tbodyDetail.innerHTML += `
+          <tr class="hover:bg-slate-800/40">
+            <td class="p-3 font-medium text-white">${item.email}</td>
+            <td class="p-3 text-slate-400">${item.leader}</td>
+            <td class="p-3 text-center"><span class="bg-slate-800 text-slate-200 px-2 py-1 rounded text-[11px]">Q${item.quartil}</span></td>
+            <td class="p-3 text-right font-semibold text-emerald-400">${avg}%</td>
+          </tr>
+        `;
+      });
+
+      const reincMap = {};
+      chkData.forEach(r => {
+        const evalRes = getFieldValue(r, ['evaluation_result', 'result', 'resultado']).toLowerCase();
+        if (evalRes === 'não conforme') {
+          const email = getEmail(r);
+          const criteria = getFieldValue(r, ['criteria', 'criterio', 'Critério']) || 'Outros';
+          const key = email + '||' + criteria;
+          if (!reincMap[key]) {
+            const auxInfo = auxMap[email] || { name: email };
+            reincMap[key] = { analyst: auxInfo.name, criteria: criteria, count: 0 };
+          }
+          reincMap[key].count++;
+        }
+      });
+
+      const tbodyReinc = document.getElementById('table-reincidents');
+      tbodyReinc.innerHTML = '';
+      const reincList = Object.values(reincMap).filter(i => i.count >= 2).sort((a,b) => b.count - a.count);
+      
+      if (reincList.length === 0) {
+        tbodyReinc.innerHTML = `<tr><td colspan="4" class="p-4 text-center text-slate-500">Nenhuma reincidência encontrada para os filtros aplicados.</td></tr>`;
+      } else {
+        reincList.forEach(item => {
+          tbodyReinc.innerHTML += `
+            <tr class="hover:bg-slate-800/40">
+              <td class="p-3 font-medium text-white">${item.analyst}</td>
+              <td class="p-3 text-slate-300">${item.criteria}</td>
+              <td class="p-3 text-center font-bold text-red-400">${item.count}x</td>
+              <td class="p-3 text-right"><span class="badge-critical px-2 py-0.5 rounded-full text-[10px]">Atenção</span></td>
+            </tr>
+          `;
+        });
+      }
+    }
+
+    function renderQualityPanel(chkData, ncgData) {
+      const chkCounts = {};
+      let totalChkErrors = 0;
+      chkData.forEach(r => {
+        const evalRes = getFieldValue(r, ['evaluation_result', 'result', 'resultado']).toLowerCase();
+        if (evalRes === 'não conforme') {
+          const crit = getFieldValue(r, ['criteria', 'criterio', 'Critério']) || 'Outros';
+          chkCounts[crit] = (chkCounts[crit] || 0) + 1;
+          totalChkErrors++;
+        }
+      });
+
+      const tbodyChk = document.getElementById('table-checklist-errors');
+      tbodyChk.innerHTML = '';
+      Object.entries(chkCounts).sort((a,b) => b[1] - a[1]).forEach(([crit, qty]) => {
+        const pct = totalChkErrors > 0 ? Math.round((qty / totalChkErrors) * 100) : 0;
+        tbodyChk.innerHTML += `
+          <tr class="hover:bg-slate-800/40">
+            <td class="p-3 font-medium text-white">${crit}</td>
+            <td class="p-3 text-center text-amber-400 font-bold">${qty}</td>
+            <td class="p-3 text-right text-slate-400">${pct}%</td>
+          </tr>
+        `;
+      });
+
+      const ncgCounts = {};
+      ncgData.forEach(r => {
+        const evalRes = getFieldValue(r, ['NCG_evaluation_result', 'evaluation_result', 'NCG_result']).toLowerCase();
+        if (evalRes === 'não conforme') {
+          const crit = getFieldValue(r, ['NCG_criteria', 'criteria', 'criterio', 'Critério NCG']) || 'Outros NCG';
+          ncgCounts[crit] = (ncgCounts[crit] || 0) + 1;
+        }
+      });
+
+      const tbodyNcg = document.getElementById('table-ncg-errors');
+      tbodyNcg.innerHTML = '';
+      Object.entries(ncgCounts).sort((a,b) => b[1] - a[1]).forEach(([crit, qty]) => {
+        tbodyNcg.innerHTML += `
+          <tr class="hover:bg-slate-800/40">
+            <td class="p-3 font-medium text-white">${crit}</td>
+            <td class="p-3 text-center text-red-400 font-bold">${qty}</td>
+            <td class="p-3 text-right"><span class="badge-critical px-2 py-0.5 rounded-full text-[10px]">Crítico</span></td>
+          </tr>
+        `;
+      });
+    }
+
+    function renderTDPanel(genData, fbData) {
+      let swHH = 0, swLH = 0, swHL = 0, swLL = 0;
+      const perfis = {};
+      const gapCounts = {};
+
+      fbData.forEach(r => {
+        const quad = getFieldValue(r, ['skill_will_quadrante', 'quadrante']).toLowerCase();
+        if (quad.includes('alta') && quad.includes('alto')) swHH++;
+        else if (quad.includes('baixa') && quad.includes('alto')) swLH++;
+        else if (quad.includes('alta') && quad.includes('baixo')) swHL++;
+        else if (quad.includes('baixa') && quad.includes('baixo')) swLL++;
+
+        const perf = getFieldValue(r, ['perfil_analista', 'perfil']);
+        if (perf) perfis[perf] = (perfis[perf] || 0) + 1;
+      });
+
+      document.getElementById('sw-high-high').textContent = swHH;
+      document.getElementById('sw-low-high').textContent = swLH;
+      document.getElementById('sw-high-low').textContent = swHL;
+      document.getElementById('sw-low-low').textContent = swLL;
+
+      const perfContainer = document.getElementById('perfil-container');
+      perfContainer.innerHTML = '';
+      const totalPerfis = Object.values(perfis).reduce((a,b) => a+b, 0);
+      if (totalPerfis === 0) {
+        perfContainer.innerHTML = `<div class="text-xs text-slate-500 p-2">Sem mapeamento de perfil para o filtro selecionado.</div>`;
+      } else {
+        Object.entries(perfis).sort((a,b) => b[1] - a[1]).forEach(([perfName, qty]) => {
+          const pct = Math.round((qty / totalPerfis) * 100);
+          perfContainer.innerHTML += `
+            <div>
+              <div class="flex justify-between text-xs mb-1">
+                <span class="font-medium text-slate-300">${perfName}</span>
+                <span class="text-slate-400">${qty} (${pct}%)</span>
+              </div>
+              <div class="w-full bg-slate-900 rounded-full h-2 overflow-hidden">
+                <div class="bg-indigo-500 h-2 rounded-full" style="width: ${pct}%"></div>
+              </div>
+            </div>
+          `;
+        });
+      }
+
+      genData.forEach(r => {
+        const imp = getFieldValue(r, ['improvement_areas', 'oportunidade_melhoria', 'pontos_a_melhorar']);
+        if (imp) {
+          const items = imp.split('|').map(s => s.trim()).filter(s => s.length > 3);
+          items.forEach(item => {
+            const shortTerm = item.length > 70 ? item.substring(0, 70) + '...' : item;
+            gapCounts[shortTerm] = (gapCounts[shortTerm] || 0) + 1;
+          });
+        }
+      });
+
+      const tbodyGaps = document.getElementById('table-td-gaps');
+      tbodyGaps.innerHTML = '';
+      const sortedGaps = Object.entries(gapCounts).sort((a,b) => b[1] - a[1]).slice(0, 8);
+      if (sortedGaps.length === 0) {
+        tbodyGaps.innerHTML = `<tr><td colspan="3" class="p-3 text-center text-slate-500">Nenhum gap estruturado mapeado.</td></tr>`;
+      } else {
+        sortedGaps.forEach(([gap, freq]) => {
+          const badgeClass = freq >= 5 ? 'badge-critical' : 'badge-warning';
+          const badgeText = freq >= 5 ? 'Alta' : 'Média';
+          tbodyGaps.innerHTML += `
+            <tr class="hover:bg-slate-800/40">
+              <td class="p-2.5 font-medium text-white">${gap}</td>
+              <td class="p-2.5 text-center text-amber-400 font-bold">${freq}</td>
+              <td class="p-2.5 text-right"><span class="${badgeClass} px-2 py-0.5 rounded-full text-[10px]">${badgeText}</span></td>
+            </tr>
+          `;
+        });
+      }
+    }
+
+    function renderROIPanel(genData, ncgData) {
+      const ncgIds = new Set(
+        ncgData
+          .filter(r => getFieldValue(r, ['NCG_evaluation_result', 'evaluation_result']).toLowerCase() === 'não conforme')
+          .map(r => getID(r))
+      );
+
+      let totalWithConv = 0, totalConverted = 0;
+      let noNcgConv = 0, noNcgTotal = 0;
+      let ncgConv = 0, ncgTotal = 0;
+
+      const analystROI = {};
+
+      genData.forEach(r => {
+        const rawConv = getFieldValue(r, ['is_converted', 'convertido', 'conversao']).toLowerCase();
+        const id = getID(r);
+        const email = getEmail(r);
+        const auxInfo = auxMap[email] || { name: email };
+
+        if (!analystROI[email]) {
+          analystROI[email] = { name: auxInfo.name, monCount: 0, scoreSum: 0, scoreCount: 0, converted: 0 };
+        }
+        analystROI[email].monCount++;
+        if (id) {
+          let score = parseNumericScore(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
+          if (isNaN(score) && scoresByAnalysisId[id] !== undefined) {
+            score = scoresByAnalysisId[id];
+          }
+          if (!isNaN(score)) {
+            analystROI[email].scoreSum += score;
+            analystROI[email].scoreCount++;
+          }
+        }
+
+        if (['true', 'false', '1', '0', 'sim', 'não', 'nao', 'yes', 'no'].includes(rawConv)) {
+          const isConv = ['true', '1', 'sim', 'yes'].includes(rawConv);
+          totalWithConv++;
+          if (isConv) {
+            totalConverted++;
+            analystROI[email].converted++;
+          }
+
+          const hasNcg = ncgIds.has(id);
+          if (hasNcg) {
+            ncgTotal++;
+            if (isConv) ncgConv++;
+          } else {
+            noNcgTotal++;
+            if (isConv) noNcgConv++;
+          }
+        }
+      });
+
+      const pctTotal = totalWithConv > 0 ? (totalConverted / totalWithConv * 100).toFixed(1) : '0.0';
+      const pctNoNcg = noNcgTotal > 0 ? (noNcgConv / noNcgTotal * 100).toFixed(1) : '0.0';
+      const pctNcg = ncgTotal > 0 ? (ncgConv / ncgTotal * 100).toFixed(1) : '0.0';
+
+      document.getElementById('roi-conv-total').textContent = pctTotal + '%';
+      document.getElementById('roi-conv-no-ncg').textContent = pctNoNcg + '%';
+      document.getElementById('roi-conv-ncg').textContent = pctNcg + '%';
+
+      const tbodyROI = document.getElementById('table-roi-analyst');
+      tbodyROI.innerHTML = '';
+      Object.values(analystROI).forEach(item => {
+        const avgScore = item.scoreCount > 0 ? (item.scoreSum / item.scoreCount).toFixed(1) : '0.0';
+        const convRate = item.monCount > 0 ? (item.converted / item.monCount * 100).toFixed(1) : '0.0';
+        tbodyROI.innerHTML += `
+          <tr class="hover:bg-slate-800/40">
+            <td class="p-3 font-medium text-white">${item.name}</td>
+            <td class="p-3 text-center text-slate-300">${item.monCount}</td>
+            <td class="p-3 text-center font-semibold text-emerald-400">${avgScore}%</td>
+            <td class="p-3 text-center text-indigo-400 font-bold">${item.converted}</td>
+            <td class="p-3 text-right font-bold text-white">${convRate}%</td>
+          </tr>
+        `;
+      });
+    }
+
+    function renderContestationsPanel(chkData, contestList) {
+      let totalContest = 0, validContest = 0;
+      const criteriaContest = {};
+      const analystContest = {};
+
+      const externalContestIds = new Set((contestList || []).map(r => getID(r)).filter(Boolean));
+
+      chkData.forEach(r => {
+        const rawContest = getFieldValue(r, ['contestado', 'Contestado']).toLowerCase();
+        const rawValid = getFieldValue(r, ['contestação validada', 'contestacao_validada', 'contestacao validada', 'validada']).toLowerCase();
+        const id = getID(r);
+
+        const isCont = ['true', '1', 'sim', 'yes', 'contestado'].includes(rawContest) || externalContestIds.has(id);
+        if (isCont) {
+          totalContest++;
+          const isValid = ['true', '1', 'sim', 'yes', 'validada', 'procedente', 'aprovada'].includes(rawValid);
+          if (isValid) validContest++;
+
+          const crit = getFieldValue(r, ['criteria', 'criterio', 'Critério']) || 'Outros';
+          if (!criteriaContest[crit]) criteriaContest[crit] = { total: 0, valid: 0 };
+          criteriaContest[crit].total++;
+          if (isValid) criteriaContest[crit].valid++;
+
+          const email = getEmail(r);
+          const auxInfo = auxMap[email] || { name: email };
+          if (!analystContest[email]) analystContest[email] = { name: auxInfo.name, total: 0, valid: 0 };
+          analystContest[email].total++;
+          if (isValid) analystContest[email].valid++;
+        }
+      });
+
+      const rate = totalContest > 0 ? (validContest / totalContest * 100).toFixed(1) : '0.0';
+
+      document.getElementById('kpi-contest-total').textContent = totalContest;
+      document.getElementById('kpi-contest-valid').textContent = validContest;
+      document.getElementById('kpi-contest-rate').textContent = rate + '%';
+
+      const tbodyCrit = document.getElementById('table-contest-criteria');
+      tbodyCrit.innerHTML = '';
+      if (totalContest === 0) {
+        tbodyCrit.innerHTML = `<tr><td colspan="4" class="p-3 text-center text-slate-500">Nenhuma contestação registrada no filtro.</td></tr>`;
+      } else {
+        Object.entries(criteriaContest).sort((a,b) => b[1].total - a[1].total).forEach(([crit, item]) => {
+          const critRate = item.total > 0 ? (item.valid / item.total * 100).toFixed(1) : '0.0';
+          tbodyCrit.innerHTML += `
+            <tr class="hover:bg-slate-800/40">
+              <td class="p-3 font-medium text-white">${crit}</td>
+              <td class="p-3 text-center text-amber-400 font-bold">${item.total}</td>
+              <td class="p-3 text-center text-emerald-400 font-bold">${item.valid}</td>
+              <td class="p-3 text-right text-slate-300 font-semibold">${critRate}%</td>
+            </tr>
+          `;
+        });
+      }
+
+      const tbodyAna = document.getElementById('table-contest-analyst');
+      tbodyAna.innerHTML = '';
+      if (totalContest === 0) {
+        tbodyAna.innerHTML = `<tr><td colspan="4" class="p-3 text-center text-slate-500">Sem registros por analista.</td></tr>`;
+      } else {
+        Object.values(analystContest).forEach(item => {
+          tbodyAna.innerHTML += `
+            <tr class="hover:bg-slate-800/40">
+              <td class="p-3 font-medium text-white">${item.name}</td>
+              <td class="p-3 text-center text-slate-300">${item.total}</td>
+              <td class="p-3 text-center text-emerald-400 font-bold">${item.valid}</td>
+              <td class="p-3 text-right"><span class="badge-healthy px-2 py-0.5 rounded-full text-[10px]">${item.valid} Aprovadas</span></td>
+            </tr>
+          `;
+        });
+      }
+    }
+  </script>
+</body>
+</html>
