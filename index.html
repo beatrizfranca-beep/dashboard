@@ -67,7 +67,7 @@
   <!-- Loading State -->
   <div id="loading" class="text-center py-20">
     <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-indigo-500 border-t-transparent"></div>
-    <p class="mt-3 text-sm text-slate-400">Carregando dados do repositório GitHub...</p>
+    <p class="mt-3 text-sm text-slate-400">Carregando dados consolidados do repositório GitHub...</p>
   </div>
 
   <!-- MAIN CONTENT CONTAINER -->
@@ -400,11 +400,12 @@
   </main>
 
   <script>
-    // URL raw do arquivo JSON salvo no repositório GitHub
     const JSON_URL = 'https://raw.githubusercontent.com/beatrizfranca-beep/dashboard/main/Outbound-Actionline/dados.json';
 
     let dbData = { aux: [], general: [], checklist: [], ncgs: [], feedback: [], contestacoes: [] };
     let auxMap = {};
+    let scoresByAnalysisId = {};
+    let quartilByAnalysisId = {};
 
     function getFieldValue(row, possibleKeys) {
       if (!row) return '';
@@ -420,6 +421,13 @@
         }
       }
       return '';
+    }
+
+    function parseNumericScore(valStr) {
+      if (!valStr) return NaN;
+      const cleaned = String(valStr).replace('%', '').trim();
+      const num = parseFloat(cleaned);
+      return isNaN(num) ? NaN : num;
     }
 
     function getEmail(row) {
@@ -442,12 +450,8 @@
       if (!row) return false;
       const keys = Object.keys(row);
       for (let k of keys) {
-        const kLower = k.toLowerCase().trim();
-        const val = String(row[k] || '').toLowerCase().trim();
-        if (val.includes('aplicad')) return true;
-        if (kLower.includes('feedback') || kLower.includes('status')) {
-          if (['sim', 'ok', 'concluido', 'concluído', 'realizado', 'feito'].includes(val)) return true;
-        }
+        const val = String(row[k] || '').toUpperCase().trim();
+        if (val === 'APLICADO' || val.includes('APLICAD')) return true;
       }
       return false;
     }
@@ -455,40 +459,63 @@
     window.onload = function() {
       fetch(JSON_URL)
         .then(response => {
-          if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-          }
+          if (!response.ok) throw new Error(`HTTP status: ${response.status}`);
           return response.json();
         })
         .then(rawJson => {
           onDataLoaded(rawJson);
         })
         .catch(err => {
-          console.error("Erro ao carregar JSON do GitHub:", err);
-          alert("Erro ao carregar dados do repositório: " + err.message);
+          console.error("Erro ao carregar JSON:", err);
+          alert("Erro ao carregar dados do GitHub: " + err.message);
         });
     };
 
     function normalizeSheetKeys(rawJson) {
       const keys = Object.keys(rawJson);
-      const findSheet = (keywords) => {
-        const match = keys.find(k => keywords.some(kw => k.toLowerCase().includes(kw.toLowerCase())));
-        return match ? rawJson[match] : [];
+
+      const findSheet = (priorityList) => {
+        for (let kw of priorityList) {
+          const match = keys.find(k => k.toLowerCase().includes(kw.toLowerCase()));
+          if (match) return rawJson[match];
+        }
+        return [];
       };
 
       return {
         aux: findSheet(['aux', 'apoio']),
-        general: findSheet(['general', 'monalisa', 'geral', 'dados_gerais', 'general_data']),
+        general: findSheet(['general_data', 'general', 'geral']),
         checklist: findSheet(['checklist']),
         ncgs: findSheet(['ncg']),
-        feedback: findSheet(['feedback', 'respostas_forms']),
-        contestacoes: findSheet(['contest', 'contestacoes', 'contestações'])
+        feedback: findSheet(['feedback_consolidado', 'feedback']),
+        contestacoes: findSheet(['contest'])
       };
     }
 
     function onDataLoaded(rawJson) {
       dbData = normalizeSheetKeys(rawJson);
       
+      // Mapeia notas médias e quartis do Checklist
+      const chkScoresGroup = {};
+      (dbData.checklist || []).forEach(r => {
+        const aid = getID(r);
+        const sc = parseNumericScore(getFieldValue(r, ['nota final', 'nota', 'nota_final']));
+        const q = getFieldValue(r, ['quartil', 'Quartil']);
+
+        if (aid) {
+          if (!chkScoresGroup[aid]) chkScoresGroup[aid] = [];
+          if (!isNaN(sc)) chkScoresGroup[aid].push(sc);
+          if (q && q !== '—' && !quartilByAnalysisId[aid]) quartilByAnalysisId[aid] = q;
+        }
+      });
+
+      Object.keys(chkScoresGroup).forEach(aid => {
+        const arr = chkScoresGroup[aid];
+        if (arr.length > 0) {
+          scoresByAnalysisId[aid] = arr.reduce((a, b) => a + b, 0) / arr.length;
+        }
+      });
+
       (dbData.aux || []).forEach(row => {
         const email = getEmail(row);
         if (email) {
@@ -642,7 +669,7 @@
     }
 
     function renderControlPanel(genData, ncgData, fbData) {
-      const uniqueIds = new Set(genData.map(r => getID(r)).filter(id => id && id !== 'null'));
+      const uniqueIds = new Set(genData.map(r => getID(r)).filter(Boolean));
       const totalMon = uniqueIds.size;
 
       const ncgErrors = ncgData.filter(r => {
@@ -654,8 +681,11 @@
 
       let scoreSum = 0, scoreCount = 0;
       genData.forEach(r => {
-        const score = parseFloat(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
-        if(!isNaN(score)) { scoreSum += score; scoreCount++; }
+        const aid = getID(r);
+        if (aid && scoresByAnalysisId[aid] !== undefined) {
+          scoreSum += scoresByAnalysisId[aid];
+          scoreCount++;
+        }
       });
       const avgScore = scoreCount > 0 ? (scoreSum / scoreCount).toFixed(1) : '0.0';
 
@@ -672,12 +702,12 @@
           analystStats[email] = { name: auxInfo.name, leader: auxInfo.leader, ids: new Set(), scoreSum: 0, scoreCount: 0, ncgs: 0 };
         }
         const id = getID(r);
-        if (id) analystStats[email].ids.add(id);
-
-        const sc = parseFloat(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
-        if (!isNaN(sc)) {
-          analystStats[email].scoreSum += sc;
-          analystStats[email].scoreCount++;
+        if (id) {
+          analystStats[email].ids.add(id);
+          if (scoresByAnalysisId[id] !== undefined) {
+            analystStats[email].scoreSum += scoresByAnalysisId[id];
+            analystStats[email].scoreCount++;
+          }
         }
       });
 
@@ -707,8 +737,11 @@
 
       const quartis = { 'Q1': 0, 'Q2': 0, 'Q3': 0, 'Q4': 0 };
       genData.forEach(r => {
-        const q = parseInt(getFieldValue(r, ['quartil', 'Quartil']));
-        if (q >= 1 && q <= 4) quartis['Q' + q]++;
+        const id = getID(r);
+        const q = quartilByAnalysisId[id];
+        if (q && quartis['Q' + q] !== undefined) {
+          quartis['Q' + q]++;
+        }
       });
 
       const qContainer = document.getElementById('quartil-container');
@@ -738,12 +771,16 @@
       genData.forEach(r => {
         const email = getEmail(r);
         const auxInfo = auxMap[email] || { name: email, leader: 'Não Cadastrado' };
+        const id = getID(r);
+        const q = quartilByAnalysisId[id] || 'N/I';
+
         if (!detailMap[email]) {
-          detailMap[email] = { email: email, name: auxInfo.name, leader: auxInfo.leader, quartil: getFieldValue(r, ['quartil', 'Quartil']) || 'N/I', scoreSum: 0, count: 0 };
+          detailMap[email] = { email: email, name: auxInfo.name, leader: auxInfo.leader, quartil: q, scoreSum: 0, count: 0 };
         }
-        detailMap[email].count++;
-        const sc = parseFloat(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
-        if(!isNaN(sc)) detailMap[email].scoreSum += sc;
+        if (id && scoresByAnalysisId[id] !== undefined) {
+          detailMap[email].scoreSum += scoresByAnalysisId[id];
+          detailMap[email].count++;
+        }
       });
 
       Object.values(detailMap).forEach(item => {
@@ -929,7 +966,7 @@
 
       genData.forEach(r => {
         const rawConv = getFieldValue(r, ['is_converted', 'convertido', 'conversao']).toLowerCase();
-        const score = parseFloat(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
+        const id = getID(r);
         const email = getEmail(r);
         const auxInfo = auxMap[email] || { name: email };
 
@@ -937,8 +974,8 @@
           analystROI[email] = { name: auxInfo.name, monCount: 0, scoreSum: 0, scoreCount: 0, converted: 0 };
         }
         analystROI[email].monCount++;
-        if (!isNaN(score)) {
-          analystROI[email].scoreSum += score;
+        if (id && scoresByAnalysisId[id] !== undefined) {
+          analystROI[email].scoreSum += scoresByAnalysisId[id];
           analystROI[email].scoreCount++;
         }
 
@@ -950,7 +987,6 @@
             analystROI[email].converted++;
           }
 
-          const id = getID(r);
           const hasNcg = ncgIds.has(id);
           if (hasNcg) {
             ncgTotal++;
