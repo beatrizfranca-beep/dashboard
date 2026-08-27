@@ -24,6 +24,9 @@
       <div>
         <h1 class="text-xl font-bold tracking-tight text-white">Painel Qualidade <span class="text-xs font-semibold text-indigo-400 bg-indigo-950/80 border border-indigo-800 px-2.5 py-0.5 rounded-full ml-2">EXECUTIVE</span></h1>
         <p class="text-xs text-slate-400">Qualidade • Performance • T&D • ROI de Negócio</p>
+        <p class="text-[11px] text-amber-400/90 font-medium mt-1 flex items-center gap-1">
+          <span>⚠️</span> esse site utiliza de IA e alguns dados podem apresentar falhas
+        </p>
       </div>
     </div>
 
@@ -294,7 +297,7 @@
     <div id="tab-negocio" class="space-y-6 hidden">
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div class="card-dark p-4 rounded-2xl">
-          <span class="text-xs font-semibold text-slate-400 uppercase">Taxa de Conversão Geral</span>
+          <span class="text-xs font-semibold text-slate-400 uppercase">Taxa de Conversão Geral (monitorias)</span>
           <div id="roi-conv-total" class="text-3xl font-extrabold text-white mt-1">0.0%</div>
           <p class="text-[11px] text-slate-400 mt-1">Percentual de leads/atendimentos convertidos</p>
         </div>
@@ -431,8 +434,6 @@
       let num = parseFloat(cleaned);
       if (isNaN(num)) return NaN;
 
-      // Se o valor não possui '%' e está entre 0 (exclusivo) e 1 (inclusive),
-      // trata-se de um valor exportado do Google Sheets em formato decimal (ex: 0.68 -> 68%)
       if (!hasPercent && num > 0 && num <= 1) {
         num = num * 100;
       }
