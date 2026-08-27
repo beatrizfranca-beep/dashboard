@@ -424,8 +424,8 @@
     }
 
     function parseNumericScore(valStr) {
-      if (!valStr) return NaN;
-      const cleaned = String(valStr).replace('%', '').trim();
+      if (valStr === undefined || valStr === null || valStr === '') return NaN;
+      const cleaned = String(valStr).replace('%', '').replace(',', '.').trim();
       const num = parseFloat(cleaned);
       return isNaN(num) ? NaN : num;
     }
@@ -495,7 +495,7 @@
     function onDataLoaded(rawJson) {
       dbData = normalizeSheetKeys(rawJson);
       
-      // Mapeia notas médias e quartis do Checklist
+      // Mapeia notas médias e quartis do Checklist como fallback automático
       const chkScoresGroup = {};
       (dbData.checklist || []).forEach(r => {
         const aid = getID(r);
@@ -681,9 +681,16 @@
 
       let scoreSum = 0, scoreCount = 0;
       genData.forEach(r => {
-        const aid = getID(r);
-        if (aid && scoresByAnalysisId[aid] !== undefined) {
-          scoreSum += scoresByAnalysisId[aid];
+        const id = getID(r);
+        if (!id) return;
+        
+        let sc = parseNumericScore(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
+        if (isNaN(sc) && scoresByAnalysisId[id] !== undefined) {
+          sc = scoresByAnalysisId[id];
+        }
+
+        if (!isNaN(sc)) {
+          scoreSum += sc;
           scoreCount++;
         }
       });
@@ -704,8 +711,12 @@
         const id = getID(r);
         if (id) {
           analystStats[email].ids.add(id);
-          if (scoresByAnalysisId[id] !== undefined) {
-            analystStats[email].scoreSum += scoresByAnalysisId[id];
+          let sc = parseNumericScore(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
+          if (isNaN(sc) && scoresByAnalysisId[id] !== undefined) {
+            sc = scoresByAnalysisId[id];
+          }
+          if (!isNaN(sc)) {
+            analystStats[email].scoreSum += sc;
             analystStats[email].scoreCount++;
           }
         }
@@ -738,7 +749,7 @@
       const quartis = { 'Q1': 0, 'Q2': 0, 'Q3': 0, 'Q4': 0 };
       genData.forEach(r => {
         const id = getID(r);
-        const q = quartilByAnalysisId[id];
+        const q = quartilByAnalysisId[id] || getFieldValue(r, ['quartil', 'Quartil']);
         if (q && quartis['Q' + q] !== undefined) {
           quartis['Q' + q]++;
         }
@@ -772,14 +783,20 @@
         const email = getEmail(r);
         const auxInfo = auxMap[email] || { name: email, leader: 'Não Cadastrado' };
         const id = getID(r);
-        const q = quartilByAnalysisId[id] || 'N/I';
+        const q = quartilByAnalysisId[id] || getFieldValue(r, ['quartil', 'Quartil']) || 'N/I';
 
         if (!detailMap[email]) {
           detailMap[email] = { email: email, name: auxInfo.name, leader: auxInfo.leader, quartil: q, scoreSum: 0, count: 0 };
         }
-        if (id && scoresByAnalysisId[id] !== undefined) {
-          detailMap[email].scoreSum += scoresByAnalysisId[id];
-          detailMap[email].count++;
+        if (id) {
+          let sc = parseNumericScore(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
+          if (isNaN(sc) && scoresByAnalysisId[id] !== undefined) {
+            sc = scoresByAnalysisId[id];
+          }
+          if (!isNaN(sc)) {
+            detailMap[email].scoreSum += sc;
+            detailMap[email].count++;
+          }
         }
       });
 
@@ -974,9 +991,15 @@
           analystROI[email] = { name: auxInfo.name, monCount: 0, scoreSum: 0, scoreCount: 0, converted: 0 };
         }
         analystROI[email].monCount++;
-        if (id && scoresByAnalysisId[id] !== undefined) {
-          analystROI[email].scoreSum += scoresByAnalysisId[id];
-          analystROI[email].scoreCount++;
+        if (id) {
+          let score = parseNumericScore(getFieldValue(r, ['final_score', 'nota', 'nota_final']));
+          if (isNaN(score) && scoresByAnalysisId[id] !== undefined) {
+            score = scoresByAnalysisId[id];
+          }
+          if (!isNaN(score)) {
+            analystROI[email].scoreSum += score;
+            analystROI[email].scoreCount++;
+          }
         }
 
         if (['true', 'false', '1', '0', 'sim', 'não', 'nao', 'yes', 'no'].includes(rawConv)) {
