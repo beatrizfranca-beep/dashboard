@@ -207605,7 +207605,57 @@
       "Feedback aplicado": ""
     }
   ],
-  "Contestação": [],
+  "Contestação": [
+    {
+      "ID (coloquem o ID a ser contestado)": 78721900,
+      "Critério/NCG (coloquem cada critério ou NCG em uma linha diferente)": "Apresentação de Identidade Profissional Incorreta",
+      "Justificativa (detalhem ao máximo a justificativa)": "Apresentação de Identidade Profissional Incorreta",
+      "Status": "",
+      "Retorno Qualidade": ""
+    },
+    {
+      "ID (coloquem o ID a ser contestado)": 78721278,
+      "Critério/NCG (coloquem cada critério ou NCG em uma linha diferente)": "Apresentação de Identidade Profissional Incorreta",
+      "Justificativa (detalhem ao máximo a justificativa)": "Analista faz a apresentação correta  no tempo 00:00:08 da ligação",
+      "Status": "",
+      "Retorno Qualidade": ""
+    },
+    {
+      "ID (coloquem o ID a ser contestado)": 78721511,
+      "Critério/NCG (coloquem cada critério ou NCG em uma linha diferente)": "Abandono de Argumentação Estratégica",
+      "Justificativa (detalhem ao máximo a justificativa)": "Analista faz a apresentação correta  no tempo 00:00:24 da ligação, sonda sobre o contrato de locação e PP informa que fez por um ano.",
+      "Status": "",
+      "Retorno Qualidade": ""
+    },
+    {
+      "ID (coloquem o ID a ser contestado)": 78721123,
+      "Critério/NCG (coloquem cada critério ou NCG em uma linha diferente)": "Abandono de Argumentação Estratégica",
+      "Justificativa (detalhem ao máximo a justificativa)": "Analista faz o processo correto, no tempo da ligação 00:0025 em diante, PP informa que irá conversar com os moradores para as fotos e marcam um retorno para sexta feira  14/08.  Tabulado como agendamento; ",
+      "Status": "",
+      "Retorno Qualidade": ""
+    },
+    {
+      "ID (coloquem o ID a ser contestado)": 78807079,
+      "Critério/NCG (coloquem cada critério ou NCG em uma linha diferente)": "Abandono de Argumentação Estratégica",
+      "Justificativa (detalhem ao máximo a justificativa)": "Imovel para venda, locação PP informa que ela mesmo faz a locação, Analista sonda e fala sobre os beneficios sobre a locação, PP não concorda com as regras x taxas, questiona sobre qual a documentação solicitada aos locatarios, analista informa que não possui a informação sobre os documentos solicitados e direciona para a central 40201955, PP pede para enviar pelo WHATSAAP. PP pede para colocar para venda e analista informa novamengte sobre a falta de atuação e informa que assim que expandir nós entraremos em contato.",
+      "Status": "",
+      "Retorno Qualidade": ""
+    },
+    {
+      "ID (coloquem o ID a ser contestado)": 78807079,
+      "Critério/NCG (coloquem cada critério ou NCG em uma linha diferente)": "Apresentação de Identidade Profissional Incorreta",
+      "Justificativa (detalhem ao máximo a justificativa)": "Imovel para venda, locação PP informa que ela mesmo faz a locação, Analista sonda e fala sobre os beneficios sobre a locação, PP não concorda com as regras x taxas, questiona sobre qual a documentação solicitada aos locatarios, analista informa que não possui a informação sobre os documentos solicitados e direciona para a central 40201955, PP pede para enviar pelo WHATSAAP. PP pede para colocar para venda e analista informa novamengte sobre a falta de atuação e informa que assim que expandir nós entraremos em contato.",
+      "Status": "",
+      "Retorno Qualidade": ""
+    },
+    {
+      "ID (coloquem o ID a ser contestado)": 78807157,
+      "Critério/NCG (coloquem cada critério ou NCG em uma linha diferente)": "Abandono de Argumentação Estratégica",
+      "Justificativa (detalhem ao máximo a justificativa)": "No tempo 00:00:41  PP informa que não tem interesse alugar ou vender o imovel, ela mora no local, desconhece o processo do QA .  E NO FINAL REFORÇA QUE NÃO TEM INTEÇÃO DE VENDER",
+      "Status": "",
+      "Retorno Qualidade": ""
+    }
+  ],
   "respostas_forms": [
     {
       "Carimbo de data/hora": "2026-08-21T22:10:52.713Z",
@@ -207658,6 +207708,33 @@
       "email do analista (preencher com copia e cola da planilha)": "joyce.chagas@actionline.com.br",
       "data_geracao (preencher com copia e cola da planilha)": "2026-08-17 00:08:00",
       "titulo_documento (preencher com copia e cola da planilha)": "PDI — GESTÃO DE CONSEQUÊNCIA",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Analista ciente das informações",
+      "": ""
+    },
+    {
+      "Carimbo de data/hora": "2026-08-27T21:45:26.270Z",
+      "Endereço de e-mail": "regiane.santos@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "matheus.ferreira@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-17 00:08:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — GESTÃO DE CONSEQUÊNCIA",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Analista em ferias",
+      "": ""
+    },
+    {
+      "Carimbo de data/hora": "2026-08-27T21:46:59.684Z",
+      "Endereço de e-mail": "regiane.santos@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "marcela.rodrigues@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-17 00:08:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — PLANO DE DESENVOLVIMENTO",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Feedback analisado com as informaçoes ok porem não aplicado analista em ABS",
+      "": ""
+    },
+    {
+      "Carimbo de data/hora": "2026-08-27T22:38:19.776Z",
+      "Endereço de e-mail": "regiane.santos@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "thais.pompilio@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-17 00:08:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — PLANO DE DESENVOLVIMENTO",
       "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Analista ciente das informações",
       "": ""
     }
@@ -207862,8 +207939,8 @@
       "AVERAGE de final_score": 80.86733086705473
     },
     {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "criteria": "Líder",
+      "COUNTA de evaluation_result": "AVERAGE de final_score",
       "": "",
       "NCG_criteria": "",
       "COUNTA de NCG_evaluation_result": "",
@@ -207872,7 +207949,7 @@
     },
     {
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 80.4278670920809,
       "": "",
       "NCG_criteria": "",
       "COUNTA de NCG_evaluation_result": "",
@@ -207880,8 +207957,8 @@
       "AVERAGE de final_score": 84.65288771389604
     },
     {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "criteria": "Maycon Coelho",
+      "COUNTA de evaluation_result": 63.7380740286485,
       "": "",
       "NCG_criteria": "",
       "COUNTA de NCG_evaluation_result": "",
@@ -207889,13 +207966,31 @@
       "AVERAGE de final_score": 77.8473171565277
     },
     {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "criteria": "Renata Ferreira",
+      "COUNTA de evaluation_result": 82.98655813520664,
       "": "",
       "NCG_criteria": "",
       "COUNTA de NCG_evaluation_result": "",
       "primary_analyst_email": "Total geral",
       "AVERAGE de final_score": 78.39781050117921
+    },
+    {
+      "criteria": "#N/A",
+      "COUNTA de evaluation_result": 97.66666666666667,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": ""
+    },
+    {
+      "criteria": "Total geral",
+      "COUNTA de evaluation_result": 78.39781050117921,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": ""
     }
   ],
   "Aux": [
