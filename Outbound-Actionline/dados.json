@@ -173669,7 +173669,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -173703,7 +173703,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -173737,7 +173737,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -173771,7 +173771,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Maycon Coelho",
       "Feedback aplicado": ""
     },
     {
@@ -173805,7 +173805,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -173839,7 +173839,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -173873,7 +173873,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -173907,7 +173907,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -173941,7 +173941,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Maycon Coelho",
       "Feedback aplicado": ""
     },
     {
@@ -173975,7 +173975,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -174009,7 +174009,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -174043,7 +174043,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Maycon Coelho",
       "Feedback aplicado": ""
     },
     {
@@ -174077,7 +174077,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Maycon Coelho",
       "Feedback aplicado": ""
     },
     {
@@ -174111,7 +174111,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Maycon Coelho",
       "Feedback aplicado": ""
     },
     {
@@ -174145,7 +174145,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Renata Ferreira",
       "Feedback aplicado": ""
     },
     {
@@ -174179,7 +174179,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Maycon Coelho",
       "Feedback aplicado": ""
     },
     {
@@ -174213,7 +174213,7 @@
       "reconheceu_feedback": "",
       "comentarios_analista": "",
       "operacao": "Outbound",
-      "Líder": "",
+      "Líder": "Maycon Coelho",
       "Feedback aplicado": ""
     },
     {
@@ -208465,6 +208465,428 @@
       "Supervisor": "#N/A"
     }
   ],
+  "Resultados - Criem o que quiserem =)": [
+    {
+      "criteria": "Adaptação do discurso de venda",
+      "COUNTA de evaluation_result": 48,
+      "": "",
+      "NCG_criteria": "Abandono de Argumentação Estratégica",
+      "COUNTA de NCG_evaluation_result": 22,
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "#DIV/0!",
+      "Supervisor": "Maycon Coelho",
+      "Status": "Aprovado",
+      "COUNTA de Status": 0.3225806451612903
+    },
+    {
+      "criteria": "Comunicação e Linguagem",
+      "COUNTA de evaluation_result": 26,
+      "": "",
+      "NCG_criteria": "Apresentação de Identidade Profissional Incorreta",
+      "COUNTA de NCG_evaluation_result": 4,
+      "primary_analyst_email": "adriana.torres@actionline.com.br",
+      "AVERAGE de final_score": 86.81062112332943,
+      "Supervisor": "",
+      "Status": "Recusado",
+      "COUNTA de Status": 0.3225806451612903
+    },
+    {
+      "criteria": "Condução do Atendimento",
+      "COUNTA de evaluation_result": 52,
+      "": "",
+      "NCG_criteria": "Cadastro Irregular ou Promessa Enganosa",
+      "COUNTA de NCG_evaluation_result": 1,
+      "primary_analyst_email": "amanda.arruda@actionline.com.br",
+      "AVERAGE de final_score": 35.40229885057472,
+      "Supervisor": "Maycon Coelho Total",
+      "Status": "",
+      "COUNTA de Status": 0.6451612903225806
+    },
+    {
+      "criteria": "Fechamento",
+      "COUNTA de evaluation_result": 24,
+      "": "",
+      "NCG_criteria": "Conduta Antiprofissional e/ou Descarte Indevido",
+      "COUNTA de NCG_evaluation_result": 8,
+      "primary_analyst_email": "angelica.moura@actionline.com.br",
+      "AVERAGE de final_score": 92.26114226682408,
+      "Supervisor": "Renata Ferreira",
+      "Status": "Aprovado",
+      "COUNTA de Status": 0.1935483870967742
+    },
+    {
+      "criteria": "Método de Entrada",
+      "COUNTA de evaluation_result": 13,
+      "": "",
+      "NCG_criteria": "Total geral",
+      "COUNTA de NCG_evaluation_result": 35,
+      "primary_analyst_email": "angelita.maria@actionline.com.br",
+      "AVERAGE de final_score": 95,
+      "Supervisor": "",
+      "Status": "Recusado",
+      "COUNTA de Status": 0.16129032258064516
+    },
+    {
+      "criteria": "Persuasão",
+      "COUNTA de evaluation_result": 47,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "anna.lima@actionline.com.br",
+      "AVERAGE de final_score": 92.84053520508883,
+      "Supervisor": "Renata Ferreira Total",
+      "Status": "",
+      "COUNTA de Status": 0.3548387096774194
+    },
+    {
+      "criteria": "Precificação",
+      "COUNTA de evaluation_result": 16,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "arielly.cordeiro@actionline.com.br",
+      "AVERAGE de final_score": 82.2082474226804,
+      "Supervisor": "Total geral",
+      "Status": "",
+      "COUNTA de Status": 1
+    },
+    {
+      "criteria": "Qualificação do Lead",
+      "COUNTA de evaluation_result": 22,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "bianca.avelino@actionline.com.br",
+      "AVERAGE de final_score": 93.68752034658051,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Soluções adicionais",
+      "COUNTA de evaluation_result": 87,
+      "": "",
+      "NCG_criteria": "NCG_criteria",
+      "COUNTA de NCG_evaluation_result": "email",
+      "primary_analyst_email": "cassia.bethania@actionline.com.br",
+      "AVERAGE de final_score": 71.83156028368795,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Sondagem",
+      "COUNTA de evaluation_result": 51,
+      "": "",
+      "NCG_criteria": "Abandono de Argumentação Estratégica",
+      "COUNTA de NCG_evaluation_result": "adriana.torres@actionline.com.br",
+      "primary_analyst_email": "danielle.ribeiro@actionline.com.br",
+      "AVERAGE de final_score": 91.50525009545629,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Taxas",
+      "COUNTA de evaluation_result": 16,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "amanda.arruda@actionline.com.br",
+      "primary_analyst_email": "fabio.timoteo@actionline.com.br",
+      "AVERAGE de final_score": 72.74226804123711,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Total geral",
+      "COUNTA de evaluation_result": 402,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "angelica.moura@actionline.com.br",
+      "primary_analyst_email": "gabriela.belo@actionline.com.br",
+      "AVERAGE de final_score": 83.90952299635701,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "gabriela.belo@actionline.com.br",
+      "primary_analyst_email": "george.santos@actionline.com.br",
+      "AVERAGE de final_score": 78.47899752023463,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Líder",
+      "COUNTA de evaluation_result": "AVERAGE de final_score",
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "jorge.cunha@actionline.com.br",
+      "primary_analyst_email": "jorge.cunha@actionline.com.br",
+      "AVERAGE de final_score": 53.37456020251038,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": 80.4278670920809,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "julia.souza@actionline.com.br",
+      "primary_analyst_email": "julia.souza@actionline.com.br",
+      "AVERAGE de final_score": 55.69455357662534,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Maycon Coelho",
+      "COUNTA de evaluation_result": 68.12522387746604,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "lorrane.vanzei@actionline.com.br",
+      "primary_analyst_email": "juliana.damasceno@actionline.com.br",
+      "AVERAGE de final_score": 57.81226053639847,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Renata Ferreira",
+      "COUNTA de evaluation_result": 84.34754123812522,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "sandro.freitas@actionline.com.br",
+      "primary_analyst_email": "laudiceia.moura@actionline.com.br",
+      "AVERAGE de final_score": 88.65663992869877,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "#N/A",
+      "COUNTA de evaluation_result": 97.66666666666667,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "stefane.correa@actionline.com.br",
+      "primary_analyst_email": "lorrane.vanzei@actionline.com.br",
+      "AVERAGE de final_score": 89.41622295230543,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Total geral",
+      "COUNTA de evaluation_result": 80.26322092787532,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "wellison.souza@actionline.com.br",
+      "primary_analyst_email": "lucas.menezes@actionline.com.br",
+      "AVERAGE de final_score": 86.30952380952381,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "Abandono de Argumentação Estratégica Total",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "lucas.vasconcelos@actionline.com.br",
+      "AVERAGE de final_score": 86.4704433497537,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "Apresentação de Identidade Profissional Incorreta",
+      "COUNTA de NCG_evaluation_result": "jorge.cunha@actionline.com.br",
+      "primary_analyst_email": "maria.oliveira@actionline.com.br",
+      "AVERAGE de final_score": 71.41151202749141,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "julia.souza@actionline.com.br",
+      "primary_analyst_email": "marina.matoso@actionline.com.br",
+      "AVERAGE de final_score": 81.89711749748545,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Líder",
+      "COUNTA de evaluation_result": "AVERAGE de final_score",
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "lucas.menezes@actionline.com.br",
+      "primary_analyst_email": "sandro.freitas@actionline.com.br",
+      "AVERAGE de final_score": 76.55470520356504,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": 80.4278670920809,
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "sandro.freitas@actionline.com.br",
+      "primary_analyst_email": "stefane.correa@actionline.com.br",
+      "AVERAGE de final_score": 60.79619132876518,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Maycon Coelho",
+      "COUNTA de evaluation_result": 68.12522387746604,
+      "": "",
+      "NCG_criteria": "Apresentação de Identidade Profissional Incorreta Total",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "suzana.pires@actionline.com.br",
+      "AVERAGE de final_score": 83.09879707254726,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Renata Ferreira",
+      "COUNTA de evaluation_result": 84.34754123812522,
+      "": "",
+      "NCG_criteria": "Cadastro Irregular ou Promessa Enganosa",
+      "COUNTA de NCG_evaluation_result": "suzana.pires@actionline.com.br",
+      "primary_analyst_email": "wellison.souza@actionline.com.br",
+      "AVERAGE de final_score": 77.8473171565277,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "#N/A",
+      "COUNTA de evaluation_result": 97.66666666666667,
+      "": "",
+      "NCG_criteria": "Cadastro Irregular ou Promessa Enganosa Total",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "Total geral",
+      "AVERAGE de final_score": 79.06673994874414,
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "Total geral",
+      "COUNTA de evaluation_result": 80.26322092787532,
+      "": "",
+      "NCG_criteria": "Conduta Antiprofissional e/ou Descarte Indevido",
+      "COUNTA de NCG_evaluation_result": "angelica.moura@actionline.com.br",
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "jorge.cunha@actionline.com.br",
+      "primary_analyst_email": "primary_analyst_email",
+      "AVERAGE de final_score": "MEDIAN de final_score",
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "julia.souza@actionline.com.br",
+      "primary_analyst_email": "Total geral",
+      "AVERAGE de final_score": "",
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "marina.matoso@actionline.com.br",
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "stefane.correa@actionline.com.br",
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "wellison.souza@actionline.com.br",
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "Conduta Antiprofissional e/ou Descarte Indevido Total",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    },
+    {
+      "criteria": "",
+      "COUNTA de evaluation_result": "",
+      "": "",
+      "NCG_criteria": "Total geral",
+      "COUNTA de NCG_evaluation_result": "",
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "Supervisor": "",
+      "Status": "",
+      "COUNTA de Status": ""
+    }
+  ],
   "respostas_forms": [
     {
       "Carimbo de data/hora": "2026-08-21T22:10:52.713Z",
@@ -208507,7 +208929,7 @@
       "Endereço de e-mail": "regiane.santos@actionline.com.br",
       "email do analista (preencher com copia e cola da planilha)": "heverson.santos@actionline.com.br",
       "data_geracao (preencher com copia e cola da planilha)": "2026-08-17 00:08:00",
-      "titulo_documento (preencher com copia e cola da planilha)": "GESTAO_CONSEQUENCIA",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — GESTÃO DE CONSEQUÊNCIA",
       "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "O analista informa que o sistema não realizou o cálculo dos valores, impossibilitando a argumentação sobre as taxas naquele momento. Além disso, a PP deixou de responder durante o atendimento, não permitindo que as informações fossem apresentadas. O analista ainda realizou uma nova tentativa de contato no dia seguinte, porém sem sucesso. Dessa forma, não foi identificado abandono intencional da argumentação, mas sim limitação sistêmica e ausência de retorno da PP.",
       "": ""
     },
@@ -208627,428 +209049,69 @@
       "titulo_documento (preencher com copia e cola da planilha)": "CHECKPOINT DO PLANO DE RECUPERAÇÃO (Fase 2)",
       "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "analista ciente",
       "": ""
-    }
-  ],
-  "Resultados - Criem o que quiserem =)": [
-    {
-      "criteria": "Adaptação do discurso de venda",
-      "COUNTA de evaluation_result": 48,
-      "": "",
-      "NCG_criteria": "Abandono de Argumentação Estratégica",
-      "COUNTA de NCG_evaluation_result": 22,
-      "primary_analyst_email": "adriana.torres@actionline.com.br",
-      "AVERAGE de final_score": 90.37155511352924,
-      "Supervisor": "Maycon Coelho",
-      "Status": "Aprovado",
-      "COUNTA de Status": 0.3225806451612903
     },
     {
-      "criteria": "Comunicação e Linguagem",
-      "COUNTA de evaluation_result": 26,
-      "": "",
-      "NCG_criteria": "Apresentação de Identidade Profissional Incorreta",
-      "COUNTA de NCG_evaluation_result": 4,
-      "primary_analyst_email": "amanda.arruda@actionline.com.br",
-      "AVERAGE de final_score": 35.40229885057472,
-      "Supervisor": "",
-      "Status": "Recusado",
-      "COUNTA de Status": 0.3225806451612903
+      "Carimbo de data/hora": "2026-09-02T15:53:51.704Z",
+      "Endereço de e-mail": "maycon.coelho@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "jorge.cunha@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-31 19:05:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — GESTÃO DE CONSEQUÊNCIA",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Analisa precisa sondar mais e não desistir na primeira recusa do PP",
+      "": ""
     },
     {
-      "criteria": "Condução do Atendimento",
-      "COUNTA de evaluation_result": 52,
-      "": "",
-      "NCG_criteria": "Cadastro Irregular ou Promessa Enganosa",
-      "COUNTA de NCG_evaluation_result": 1,
-      "primary_analyst_email": "angelica.moura@actionline.com.br",
-      "AVERAGE de final_score": 92.26114226682408,
-      "Supervisor": "Maycon Coelho Total",
-      "Status": "",
-      "COUNTA de Status": 0.6451612903225806
+      "Carimbo de data/hora": "2026-09-02T15:54:42.262Z",
+      "Endereço de e-mail": "maycon.coelho@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "cassia.bethania@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-31 19:05:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — GESTÃO DE CONSEQUÊNCIA",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Analista ABS Crônico",
+      "": ""
     },
     {
-      "criteria": "Fechamento",
-      "COUNTA de evaluation_result": 24,
-      "": "",
-      "NCG_criteria": "Conduta Antiprofissional e/ou Descarte Indevido",
-      "COUNTA de NCG_evaluation_result": 8,
-      "primary_analyst_email": "angelita.maria@actionline.com.br",
-      "AVERAGE de final_score": 95,
-      "Supervisor": "Renata Ferreira",
-      "Status": "Aprovado",
-      "COUNTA de Status": 0.1935483870967742
+      "Carimbo de data/hora": "2026-09-02T15:56:08.833Z",
+      "Endereço de e-mail": "maycon.coelho@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "anna.lima@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-31 19:05:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — PLANO DE DESENVOLVIMENTO",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Apenas reforçar os pontos onde encontramos oportunidades",
+      "": ""
     },
     {
-      "criteria": "Método de Entrada",
-      "COUNTA de evaluation_result": 13,
-      "": "",
-      "NCG_criteria": "Total geral",
-      "COUNTA de NCG_evaluation_result": 35,
-      "primary_analyst_email": "anna.lima@actionline.com.br",
-      "AVERAGE de final_score": 92.84053520508883,
-      "Supervisor": "",
-      "Status": "Recusado",
-      "COUNTA de Status": 0.16129032258064516
+      "Carimbo de data/hora": "2026-09-02T15:57:29.443Z",
+      "Endereço de e-mail": "maycon.coelho@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "stefane.correa@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-31 19:05:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — GESTÃO DE CONSEQUÊNCIA",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Ser mais cordial com o PP, sondar mais e contra argumentar mais, não aceitar a primeira recusa do PP",
+      "": ""
     },
     {
-      "criteria": "Persuasão",
-      "COUNTA de evaluation_result": 47,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "",
-      "primary_analyst_email": "arielly.cordeiro@actionline.com.br",
-      "AVERAGE de final_score": 94.64175257731958,
-      "Supervisor": "Renata Ferreira Total",
-      "Status": "",
-      "COUNTA de Status": 0.3548387096774194
+      "Carimbo de data/hora": "2026-09-02T15:58:33.174Z",
+      "Endereço de e-mail": "maycon.coelho@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "suzana.pires@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-31 19:05:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — PLANO DE DESENVOLVIMENTO",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Atenção ao mute, se concentrar mais nas ligações, ",
+      "": ""
     },
     {
-      "criteria": "Precificação",
-      "COUNTA de evaluation_result": 16,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "",
-      "primary_analyst_email": "bianca.avelino@actionline.com.br",
-      "AVERAGE de final_score": 95.73179271708683,
-      "Supervisor": "Total geral",
-      "Status": "",
-      "COUNTA de Status": 1
+      "Carimbo de data/hora": "2026-09-02T16:00:24.887Z",
+      "Endereço de e-mail": "maycon.coelho@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "arielly.cordeiro@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-31 19:04:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — PLANO DE DESENVOLVIMENTO",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Ser mais assertiva na sondagem e argumentação com o PP; ",
+      "": ""
     },
     {
-      "criteria": "Qualificação do Lead",
-      "COUNTA de evaluation_result": 22,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "",
-      "primary_analyst_email": "cassia.bethania@actionline.com.br",
-      "AVERAGE de final_score": 70.21985815602837,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Soluções adicionais",
-      "COUNTA de evaluation_result": 87,
-      "": "",
-      "NCG_criteria": "NCG_criteria",
-      "COUNTA de NCG_evaluation_result": "email",
-      "primary_analyst_email": "danielle.ribeiro@actionline.com.br",
-      "AVERAGE de final_score": 91.3618556701031,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Sondagem",
-      "COUNTA de evaluation_result": 51,
-      "": "",
-      "NCG_criteria": "Abandono de Argumentação Estratégica",
-      "COUNTA de NCG_evaluation_result": "adriana.torres@actionline.com.br",
-      "primary_analyst_email": "fabio.timoteo@actionline.com.br",
-      "AVERAGE de final_score": 66.1512027491409,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Taxas",
-      "COUNTA de evaluation_result": 16,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "amanda.arruda@actionline.com.br",
-      "primary_analyst_email": "gabriela.belo@actionline.com.br",
-      "AVERAGE de final_score": 83.90952299635701,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Total geral",
-      "COUNTA de evaluation_result": 402,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "angelica.moura@actionline.com.br",
-      "primary_analyst_email": "george.santos@actionline.com.br",
-      "AVERAGE de final_score": 78.87630229640538,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "gabriela.belo@actionline.com.br",
-      "primary_analyst_email": "jorge.cunha@actionline.com.br",
-      "AVERAGE de final_score": 54.86547253541718,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Líder",
-      "COUNTA de evaluation_result": "AVERAGE de final_score",
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "jorge.cunha@actionline.com.br",
-      "primary_analyst_email": "julia.souza@actionline.com.br",
-      "AVERAGE de final_score": 55.69455357662534,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": 80.4278670920809,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "julia.souza@actionline.com.br",
-      "primary_analyst_email": "juliana.damasceno@actionline.com.br",
-      "AVERAGE de final_score": 57.81226053639847,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Maycon Coelho",
-      "COUNTA de evaluation_result": 68.12522387746604,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "lorrane.vanzei@actionline.com.br",
-      "primary_analyst_email": "laudiceia.moura@actionline.com.br",
-      "AVERAGE de final_score": 88.32267992424244,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Renata Ferreira",
-      "COUNTA de evaluation_result": 84.34754123812522,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "sandro.freitas@actionline.com.br",
-      "primary_analyst_email": "lorrane.vanzei@actionline.com.br",
-      "AVERAGE de final_score": 89.17857142857143,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "#N/A",
-      "COUNTA de evaluation_result": 97.66666666666667,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "stefane.correa@actionline.com.br",
-      "primary_analyst_email": "lucas.menezes@actionline.com.br",
-      "AVERAGE de final_score": 86.30952380952381,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Total geral",
-      "COUNTA de evaluation_result": 80.26322092787532,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "wellison.souza@actionline.com.br",
-      "primary_analyst_email": "lucas.vasconcelos@actionline.com.br",
-      "AVERAGE de final_score": 98.6,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "Abandono de Argumentação Estratégica Total",
-      "COUNTA de NCG_evaluation_result": "",
-      "primary_analyst_email": "maria.oliveira@actionline.com.br",
-      "AVERAGE de final_score": 58.333333333333336,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "Apresentação de Identidade Profissional Incorreta",
-      "COUNTA de NCG_evaluation_result": "jorge.cunha@actionline.com.br",
-      "primary_analyst_email": "marina.matoso@actionline.com.br",
-      "AVERAGE de final_score": 81.89711749748545,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "julia.souza@actionline.com.br",
-      "primary_analyst_email": "sandro.freitas@actionline.com.br",
-      "AVERAGE de final_score": 80.86733086705473,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Líder",
-      "COUNTA de evaluation_result": "AVERAGE de final_score",
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "lucas.menezes@actionline.com.br",
-      "primary_analyst_email": "stefane.correa@actionline.com.br",
-      "AVERAGE de final_score": 60.79619132876518,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": 80.4278670920809,
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "sandro.freitas@actionline.com.br",
-      "primary_analyst_email": "suzana.pires@actionline.com.br",
-      "AVERAGE de final_score": 91.70729502338737,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Maycon Coelho",
-      "COUNTA de evaluation_result": 68.12522387746604,
-      "": "",
-      "NCG_criteria": "Apresentação de Identidade Profissional Incorreta Total",
-      "COUNTA de NCG_evaluation_result": "",
-      "primary_analyst_email": "wellison.souza@actionline.com.br",
-      "AVERAGE de final_score": 77.8473171565277,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Renata Ferreira",
-      "COUNTA de evaluation_result": 84.34754123812522,
-      "": "",
-      "NCG_criteria": "Cadastro Irregular ou Promessa Enganosa",
-      "COUNTA de NCG_evaluation_result": "suzana.pires@actionline.com.br",
-      "primary_analyst_email": "Total geral",
-      "AVERAGE de final_score": 80.26322092787532,
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "#N/A",
-      "COUNTA de evaluation_result": 97.66666666666667,
-      "": "",
-      "NCG_criteria": "Cadastro Irregular ou Promessa Enganosa Total",
-      "COUNTA de NCG_evaluation_result": "",
-      "primary_analyst_email": "",
-      "AVERAGE de final_score": "",
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "Total geral",
-      "COUNTA de evaluation_result": 80.26322092787532,
-      "": "",
-      "NCG_criteria": "Conduta Antiprofissional e/ou Descarte Indevido",
-      "COUNTA de NCG_evaluation_result": "angelica.moura@actionline.com.br",
-      "primary_analyst_email": "",
-      "AVERAGE de final_score": "",
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "jorge.cunha@actionline.com.br",
-      "primary_analyst_email": "",
-      "AVERAGE de final_score": "",
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "julia.souza@actionline.com.br",
-      "primary_analyst_email": "",
-      "AVERAGE de final_score": "",
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "marina.matoso@actionline.com.br",
-      "primary_analyst_email": "",
-      "AVERAGE de final_score": "",
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "stefane.correa@actionline.com.br",
-      "primary_analyst_email": "",
-      "AVERAGE de final_score": "",
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": "wellison.souza@actionline.com.br",
-      "primary_analyst_email": "",
-      "AVERAGE de final_score": "",
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "Conduta Antiprofissional e/ou Descarte Indevido Total",
-      "COUNTA de NCG_evaluation_result": "",
-      "primary_analyst_email": "",
-      "AVERAGE de final_score": "",
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
-    },
-    {
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "": "",
-      "NCG_criteria": "Total geral",
-      "COUNTA de NCG_evaluation_result": "",
-      "primary_analyst_email": "",
-      "AVERAGE de final_score": "",
-      "Supervisor": "",
-      "Status": "",
-      "COUNTA de Status": ""
+      "Carimbo de data/hora": "2026-09-02T16:02:52.613Z",
+      "Endereço de e-mail": "maycon.coelho@actionline.com.br",
+      "email do analista (preencher com copia e cola da planilha)": "juliana.damasceno@actionline.com.br",
+      "data_geracao (preencher com copia e cola da planilha)": "2026-08-31 19:05:00",
+      "titulo_documento (preencher com copia e cola da planilha)": "PDI — GESTÃO DE CONSEQUÊNCIA",
+      "Observações gerais - O que fizeram de acordos? Pontos relevantes a serem evidenciados, etc": "Analista em ABS crônico; ",
+      "": ""
     }
   ],
   "Aux": [
