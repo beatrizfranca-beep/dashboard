@@ -135248,243 +135248,2190 @@
       "AVERAGE de final_score": 30.15373563218391,
       "": "",
       "criteria": "Adaptação do discurso de venda",
-      "COUNTA de evaluation_result": 62,
+      "COUNTA de evaluation_result": 2,
       "NCG_criteria": "Abandono de Argumentação Estratégica",
-      "COUNTA de NCG_evaluation_result": 33
+      "COUNTA de NCG_evaluation_result": 33,
+      "email": "arielly.domingos@aec.com.br"
     },
     {
       "primary_analyst_email": "aurora.mata@aec.com.br",
       "AVERAGE de final_score": 66.4269342794589,
       "": "",
-      "criteria": "Comunicação e Linguagem",
-      "COUNTA de evaluation_result": 37,
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
       "NCG_criteria": "Apresentação de Identidade Profissional Incorreta",
-      "COUNTA de NCG_evaluation_result": 19
+      "COUNTA de NCG_evaluation_result": 19,
+      "email": "aurora.mata@aec.com.br"
     },
     {
       "primary_analyst_email": "barbara.tramujas@aec.com.br",
       "AVERAGE de final_score": 67.84926136588062,
       "": "",
-      "criteria": "Condução do Atendimento",
-      "COUNTA de evaluation_result": 58,
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
       "NCG_criteria": "Cadastro Irregular ou Promessa Enganosa",
-      "COUNTA de NCG_evaluation_result": 2
+      "COUNTA de NCG_evaluation_result": 2,
+      "email": "barbara.tramujas@aec.com.br"
     },
     {
       "primary_analyst_email": "bruno.anascimento@aec.com.br",
       "AVERAGE de final_score": 84.49979114452799,
       "": "",
-      "criteria": "Fechamento",
-      "COUNTA de evaluation_result": 41,
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
       "NCG_criteria": "Cadastro ou Agendamento Sem Validação Adequada",
-      "COUNTA de NCG_evaluation_result": 2
+      "COUNTA de NCG_evaluation_result": 2,
+      "email": "camila.a.barbosa@aec.com.br"
     },
     {
       "primary_analyst_email": "camila.a.barbosa@aec.com.br",
       "AVERAGE de final_score": 52.777777777777786,
       "": "",
-      "criteria": "Método de Entrada",
-      "COUNTA de evaluation_result": 20,
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
       "NCG_criteria": "Conduta Antiprofissional e/ou Descarte Indevido",
-      "COUNTA de NCG_evaluation_result": 6
+      "COUNTA de NCG_evaluation_result": 6,
+      "email": "claudia.pessoa@aec.com.br"
     },
     {
       "primary_analyst_email": "claudia.pessoa@aec.com.br",
       "AVERAGE de final_score": 53.86900208961049,
       "": "",
-      "criteria": "Persuasão",
-      "COUNTA de evaluation_result": 72,
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
       "NCG_criteria": "Total geral",
-      "COUNTA de NCG_evaluation_result": 62
+      "COUNTA de NCG_evaluation_result": 62,
+      "email": "dieise.silva@aec.com.br"
     },
     {
       "primary_analyst_email": "dieise.silva@aec.com.br",
       "AVERAGE de final_score": 87.5806016720965,
       "": "",
-      "criteria": "Precificação",
-      "COUNTA de evaluation_result": 30,
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "filipe.rodrigues@aec.com.br"
     },
     {
       "primary_analyst_email": "filipe.rodrigues@aec.com.br",
       "AVERAGE de final_score": 85.033068036596,
       "": "",
-      "criteria": "Qualificação do Lead",
-      "COUNTA de evaluation_result": 36,
+      "criteria": "",
+      "COUNTA de evaluation_result": 8,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "joao.coelho@aec.com.br"
     },
     {
       "primary_analyst_email": "gustavo.hmorais@aec.com.br",
       "AVERAGE de final_score": 91.54265873015873,
       "": "",
-      "criteria": "Soluções adicionais",
-      "COUNTA de evaluation_result": 101,
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "josimar.santos@aec.com.br"
     },
     {
       "primary_analyst_email": "joao.coelho@aec.com.br",
       "AVERAGE de final_score": 48.4713929351934,
       "": "",
-      "criteria": "Sondagem",
-      "COUNTA de evaluation_result": 82,
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "juliano.murta@aec.com.br"
     },
     {
       "primary_analyst_email": "josimar.santos@aec.com.br",
       "AVERAGE de final_score": 61.26546391752577,
       "": "",
-      "criteria": "Taxas",
-      "COUNTA de evaluation_result": 21,
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
     },
     {
       "primary_analyst_email": "juliano.murta@aec.com.br",
       "AVERAGE de final_score": 37.93650793650794,
       "": "",
-      "criteria": "Total geral",
-      "COUNTA de evaluation_result": 560,
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "maria.muniz@aec.com.br"
     },
     {
       "primary_analyst_email": "julio.pego@aec.com.br",
       "AVERAGE de final_score": 71.80851063829788,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 4,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "matheus.murta@aec.com.br"
     },
     {
       "primary_analyst_email": "lucas.salles@aec.com.br",
       "AVERAGE de final_score": 77.31714566474375,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "NCG_criteria",
+      "COUNTA de NCG_evaluation_result": "email",
+      "email": "pedro.antunes@aec.com.br"
     },
     {
       "primary_analyst_email": "maria.muniz@aec.com.br",
       "AVERAGE de final_score": 83.04987620699215,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
-      "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de evaluation_result": 6,
+      "NCG_criteria": "Abandono de Argumentação Estratégica",
+      "COUNTA de NCG_evaluation_result": "aurora.mata@aec.com.br",
+      "email": "phillipe.rosa@aec.com.br"
     },
     {
       "primary_analyst_email": "mateus.bastos@aec.com.br",
       "AVERAGE de final_score": 93.55747126436782,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 2,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "bruno.anascimento@aec.com.br",
+      "email": "rachel.silva@aec.com.br"
     },
     {
       "primary_analyst_email": "matheus.murta@aec.com.br",
       "AVERAGE de final_score": 78.2114840432002,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 1,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "filipe.rodrigues@aec.com.br",
+      "email": "railan.mota@aec.com.br"
     },
     {
       "primary_analyst_email": "pedro.antunes@aec.com.br",
       "AVERAGE de final_score": 76.45374243983198,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 3,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "joao.coelho@aec.com.br",
+      "email": "rayder.pereira@aec.com.br"
     },
     {
       "primary_analyst_email": "phillipe.rosa@aec.com.br",
       "AVERAGE de final_score": 59.6422867962481,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 4,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "juliano.murta@aec.com.br",
+      "email": "samara.pdsantos@aec.com.br"
     },
     {
       "primary_analyst_email": "rachel.silva@aec.com.br",
       "AVERAGE de final_score": 65.42783505154638,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 1,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "lucas.salles@aec.com.br",
+      "email": "thiago.protzner@aec.com.br"
     },
     {
       "primary_analyst_email": "railan.mota@aec.com.br",
       "AVERAGE de final_score": 91.23711340206187,
       "": "",
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "criteria": "Adaptação do discurso de venda Total",
+      "COUNTA de evaluation_result": 62,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "maria.muniz@aec.com.br",
+      "email": ""
     },
     {
       "primary_analyst_email": "rayder.pereira@aec.com.br",
       "AVERAGE de final_score": 60.60438311688311,
       "": "",
-      "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "criteria": "Comunicação e Linguagem",
+      "COUNTA de evaluation_result": 3,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "matheus.murta@aec.com.br",
+      "email": "aurora.mata@aec.com.br"
     },
     {
       "primary_analyst_email": "rejane.ferreira@aec.com.br",
       "AVERAGE de final_score": 88.97164948453607,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 2,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "pedro.antunes@aec.com.br",
+      "email": "barbara.tramujas@aec.com.br"
     },
     {
       "primary_analyst_email": "samara.pdsantos@aec.com.br",
       "AVERAGE de final_score": 44.359395932285956,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 2,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "phillipe.rosa@aec.com.br",
+      "email": "bruno.anascimento@aec.com.br"
     },
     {
       "primary_analyst_email": "thiago.anunciacao@aec.com.br",
       "AVERAGE de final_score": 87.75773195876289,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 1,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "rachel.silva@aec.com.br",
+      "email": "camila.a.barbosa@aec.com.br"
     },
     {
       "primary_analyst_email": "yasmin.sant@aec.com.br",
       "AVERAGE de final_score": 98.95833333333333,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 4,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "rayder.pereira@aec.com.br",
+      "email": "claudia.pessoa@aec.com.br"
     },
     {
       "primary_analyst_email": "Total geral",
       "AVERAGE de final_score": 69.5149638878203,
       "": "",
       "criteria": "",
-      "COUNTA de evaluation_result": "",
+      "COUNTA de evaluation_result": 5,
       "NCG_criteria": "",
-      "COUNTA de NCG_evaluation_result": ""
+      "COUNTA de NCG_evaluation_result": "samara.pdsantos@aec.com.br",
+      "email": "dieise.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "Abandono de Argumentação Estratégica Total",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "gustavo.hmorais@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "Apresentação de Identidade Profissional Incorreta",
+      "COUNTA de NCG_evaluation_result": "arielly.domingos@aec.com.br",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "aurora.mata@aec.com.br",
+      "email": "juliano.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "claudia.pessoa@aec.com.br",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "joao.coelho@aec.com.br",
+      "email": "maria.muniz@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "lucas.salles@aec.com.br",
+      "email": "mateus.bastos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "rayder.pereira@aec.com.br",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "Apresentação de Identidade Profissional Incorreta Total",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rayder.pereira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "Cadastro Irregular ou Promessa Enganosa",
+      "COUNTA de NCG_evaluation_result": "arielly.domingos@aec.com.br",
+      "email": "samara.pdsantos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "bruno.anascimento@aec.com.br",
+      "email": "yasmin.sant@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Comunicação e Linguagem Total",
+      "COUNTA de evaluation_result": 37,
+      "NCG_criteria": "Cadastro Irregular ou Promessa Enganosa Total",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Condução do Atendimento",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "Cadastro ou Agendamento Sem Validação Adequada",
+      "COUNTA de NCG_evaluation_result": "camila.a.barbosa@aec.com.br",
+      "email": "arielly.domingos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 6,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "rachel.silva@aec.com.br",
+      "email": "aurora.mata@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "Cadastro ou Agendamento Sem Validação Adequada Total",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "barbara.tramujas@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "Conduta Antiprofissional e/ou Descarte Indevido",
+      "COUNTA de NCG_evaluation_result": "barbara.tramujas@aec.com.br",
+      "email": "camila.a.barbosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 8,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "camila.a.barbosa@aec.com.br",
+      "email": "claudia.pessoa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "filipe.rodrigues@aec.com.br",
+      "email": "dieise.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 8,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "joao.coelho@aec.com.br",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "juliano.murta@aec.com.br",
+      "email": "josimar.santos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "rayder.pereira@aec.com.br",
+      "email": "juliano.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "Conduta Antiprofissional e/ou Descarte Indevido Total",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "Total geral",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "maria.muniz@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "matheus.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "phillipe.rosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rachel.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 6,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rayder.pereira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rejane.ferreira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "samara.pdsantos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Condução do Atendimento Total",
+      "COUNTA de evaluation_result": 58,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Fechamento",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "arielly.domingos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "barbara.tramujas@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "camila.a.barbosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "claudia.pessoa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "dieise.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "filipe.rodrigues@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "josimar.santos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "juliano.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "julio.pego@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "maria.muniz@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "matheus.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "phillipe.rosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rachel.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "railan.mota@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rejane.ferreira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "thiago.anunciacao@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Fechamento Total",
+      "COUNTA de evaluation_result": 41,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Método de Entrada",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "arielly.domingos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "barbara.tramujas@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "bruno.anascimento@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "camila.a.barbosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "josimar.santos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "mateus.bastos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "nicolly.sena@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "phillipe.rosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rachel.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rayder.pereira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Método de Entrada Total",
+      "COUNTA de evaluation_result": 20,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Persuasão",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "arielly.domingos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "aurora.mata@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "barbara.tramujas@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "bruno.anascimento@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "camila.a.barbosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "claudia.pessoa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "dieise.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "filipe.rodrigues@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 8,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "josimar.santos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "juliano.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "julio.pego@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "maria.muniz@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "mateus.bastos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "matheus.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 6,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "phillipe.rosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rachel.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "railan.mota@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rayder.pereira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "samara.pdsantos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "thiago.anunciacao@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Persuasão Total",
+      "COUNTA de evaluation_result": 72,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Precificação",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "arielly.domingos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "aurora.mata@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "barbara.tramujas@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "camila.a.barbosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "claudia.pessoa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "dieise.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "filipe.rodrigues@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "josimar.santos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "juliano.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "julio.pego@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "maria.muniz@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "mateus.bastos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "matheus.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "phillipe.rosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rachel.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rayder.pereira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rejane.ferreira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Precificação Total",
+      "COUNTA de evaluation_result": 30,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Qualificação do Lead",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "arielly.domingos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "barbara.tramujas@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "bruno.anascimento@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "camila.a.barbosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 6,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "claudia.pessoa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "dieise.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "filipe.rodrigues@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "maria.muniz@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "matheus.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "phillipe.rosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rachel.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rayder.pereira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rejane.ferreira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "thiago.protzner@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Qualificação do Lead Total",
+      "COUNTA de evaluation_result": 36,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Soluções adicionais",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "arielly.domingos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "aurora.mata@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "barbara.tramujas@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "bruno.anascimento@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "camila.a.barbosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "claudia.pessoa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "dieise.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "filipe.rodrigues@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "gustavo.hmorais@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 14,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "josimar.santos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "juliano.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 10,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "maria.muniz@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "mateus.bastos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "matheus.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "nicolly.sena@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 9,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "phillipe.rosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rachel.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "railan.mota@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 8,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rayder.pereira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rejane.ferreira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "samara.pdsantos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "thiago.anunciacao@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Soluções adicionais Total",
+      "COUNTA de evaluation_result": 101,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Sondagem",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "arielly.domingos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "aurora.mata@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "barbara.tramujas@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "bruno.anascimento@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "camila.a.barbosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 7,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "claudia.pessoa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "dieise.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "filipe.rodrigues@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "gustavo.hmorais@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 10,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "josimar.santos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "juliano.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 6,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "maria.muniz@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "matheus.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 6,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "phillipe.rosa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rachel.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rayder.pereira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rejane.ferreira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 5,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "samara.pdsantos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "thiago.anunciacao@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "thiago.protzner@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Sondagem Total",
+      "COUNTA de evaluation_result": 82,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Taxas",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "arielly.domingos@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "barbara.tramujas@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "bruno.anascimento@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 3,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "claudia.pessoa@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "dieise.silva@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 4,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "filipe.rodrigues@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 2,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "joao.coelho@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "lucas.salles@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "maria.muniz@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "matheus.murta@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "pedro.antunes@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "rayder.pereira@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "",
+      "COUNTA de evaluation_result": 1,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": "thiago.anunciacao@aec.com.br"
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Taxas Total",
+      "COUNTA de evaluation_result": 21,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
+    },
+    {
+      "primary_analyst_email": "",
+      "AVERAGE de final_score": "",
+      "": "",
+      "criteria": "Total geral",
+      "COUNTA de evaluation_result": 560,
+      "NCG_criteria": "",
+      "COUNTA de NCG_evaluation_result": "",
+      "email": ""
     }
   ],
   "aux": [
