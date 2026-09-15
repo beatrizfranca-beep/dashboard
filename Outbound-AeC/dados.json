@@ -157,67 +157,11 @@
       "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
     },
     {
-      "": "",
+      "": "PENDENTE",
       "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
     },
     {
-      "": "",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": "",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": "",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": "",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": "",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": "",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": "",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": "",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": "",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": "2026-10-12T03:00:00.000Z",
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": 0,
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": 0,
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": 0,
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": 0,
-      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
-    },
-    {
-      "": 0,
+      "": 30,
       "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
     },
     {
@@ -349,7 +293,63 @@
       "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
     },
     {
-      "": "2026-10-12T03:00:00.000Z",
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
+      "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
+    },
+    {
+      "": "",
       "CONTROLE GERAL | QUALIDADE\nOutbound aec - Terceiros": ""
     },
     {
@@ -485,7 +485,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 85.41666666666666,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -725,7 +725,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 85.41666666666666,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1025,7 +1025,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 76.98412698412699,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1145,7 +1145,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -50,
       "final_score": 50,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1235,7 +1235,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 38.88888888888889,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1265,7 +1265,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -30,
       "final_score": 21.086956521739133,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1415,7 +1415,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -80,
       "final_score": 0,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1625,7 +1625,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -30,
       "final_score": 0,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1685,7 +1685,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -30,
       "final_score": 9.795918367346935,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1745,7 +1745,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 79.36507936507937,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1805,7 +1805,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -80,
       "final_score": 0,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1955,7 +1955,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -30,
       "final_score": 54.375,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -1985,7 +1985,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -2015,7 +2015,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -50,
       "final_score": 44.79166666666666,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -2225,7 +2225,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 88.88888888888889,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -2255,7 +2255,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -2285,7 +2285,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -2465,7 +2465,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -30,
       "final_score": 55.41666666666666,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -2645,7 +2645,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -30,
       "final_score": 40.83333333333334,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -2795,7 +2795,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -25,
       "final_score": 11.363636363636367,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -2855,7 +2855,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -2885,7 +2885,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -80,
       "final_score": 0,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -3005,7 +3005,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -50,
       "final_score": 2.0833333333333357,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -3125,7 +3125,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -3155,7 +3155,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -3305,7 +3305,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -3395,7 +3395,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -50,
       "final_score": 50,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -3485,7 +3485,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -130,
       "final_score": 0,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -3605,7 +3605,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 90.47619047619048,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -3995,7 +3995,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -50,
       "final_score": 42.85714285714286,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -4145,7 +4145,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -30,
       "final_score": 58.888888888888886,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-10T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -4505,7 +4505,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 98.4536082474227,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -4595,7 +4595,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 98.5,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -5105,7 +5105,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -5225,7 +5225,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -30,
       "final_score": 11.75257731958763,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -5705,7 +5705,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 95.5,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -5795,7 +5795,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 90,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -6695,7 +6695,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 95,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -6785,7 +6785,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 47.77777777777778,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -7115,7 +7115,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 96.3917525773196,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -7325,7 +7325,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 98.36065573770492,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -7775,7 +7775,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-17T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -8015,7 +8015,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 44.329896907216494,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-24T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -8045,7 +8045,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 48.333333333333336,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-24T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-08-01T03:00:00.000Z"
@@ -8405,7 +8405,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 44.827586206896555,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -8645,7 +8645,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 56.94444444444444,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -8945,7 +8945,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 71.66666666666667,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -9005,7 +9005,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 100,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -9815,7 +9815,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 89.69072164948454,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -10235,7 +10235,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 66.66666666666666,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -10385,7 +10385,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 11.170212765957446,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -10445,7 +10445,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 90.22988505747126,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -10925,7 +10925,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 91.23711340206185,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -11015,7 +11015,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": -30,
       "final_score": 0,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -11285,7 +11285,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 92.22222222222223,
-      "quartil": 4,
+      "quartil": 3,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Luiz Augusto Borges Silva",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -11585,7 +11585,7 @@
       "overall_review_approved": false,
       "NCG_impact_final": 0,
       "final_score": 72.41379310344827,
-      "quartil": 3,
+      "quartil": 4,
       "Semana": "2026-08-31T03:00:00.000Z",
       "Líder": "Ester Ferreira da Rocha",
       "Mês": "2026-09-01T03:00:00.000Z"
@@ -79612,7 +79612,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79631,7 +79631,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79650,7 +79650,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79669,7 +79669,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79688,7 +79688,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79707,7 +79707,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79726,7 +79726,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79745,7 +79745,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79764,7 +79764,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79783,7 +79783,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79802,7 +79802,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79821,7 +79821,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79840,7 +79840,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79859,7 +79859,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79878,7 +79878,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79897,7 +79897,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79916,7 +79916,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79935,7 +79935,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79954,7 +79954,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79973,7 +79973,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -79992,7 +79992,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -80011,7 +80011,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -81702,7 +81702,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81721,7 +81721,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81740,7 +81740,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81759,7 +81759,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81778,7 +81778,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81797,7 +81797,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81816,7 +81816,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81835,7 +81835,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81854,7 +81854,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81873,7 +81873,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -81892,7 +81892,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82120,7 +82120,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82139,7 +82139,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82158,7 +82158,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82177,7 +82177,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82196,7 +82196,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82215,7 +82215,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82234,7 +82234,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82253,7 +82253,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82272,7 +82272,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82291,7 +82291,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82310,7 +82310,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -82329,7 +82329,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82348,7 +82348,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82367,7 +82367,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82386,7 +82386,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82405,7 +82405,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82424,7 +82424,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82443,7 +82443,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82462,7 +82462,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82481,7 +82481,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82500,7 +82500,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82519,7 +82519,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -82538,7 +82538,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82557,7 +82557,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82576,7 +82576,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82595,7 +82595,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82614,7 +82614,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82633,7 +82633,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82652,7 +82652,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82671,7 +82671,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82690,7 +82690,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82709,7 +82709,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -82728,7 +82728,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -83792,7 +83792,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83811,7 +83811,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83830,7 +83830,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83849,7 +83849,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83868,7 +83868,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83887,7 +83887,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83906,7 +83906,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83925,7 +83925,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83944,7 +83944,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83963,7 +83963,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -83982,7 +83982,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_SEM non-branded"
     },
     {
@@ -84001,7 +84001,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84020,7 +84020,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84039,7 +84039,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84058,7 +84058,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84077,7 +84077,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84096,7 +84096,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84115,7 +84115,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84134,7 +84134,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84153,7 +84153,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84172,7 +84172,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -84191,7 +84191,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85464,7 +85464,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85483,7 +85483,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85502,7 +85502,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85521,7 +85521,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85540,7 +85540,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85559,7 +85559,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85578,7 +85578,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85597,7 +85597,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85616,7 +85616,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85635,7 +85635,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85654,7 +85654,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85673,7 +85673,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85692,7 +85692,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85711,7 +85711,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85730,7 +85730,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85749,7 +85749,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85768,7 +85768,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85787,7 +85787,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85806,7 +85806,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85825,7 +85825,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85844,7 +85844,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -85863,7 +85863,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -86509,7 +86509,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86528,7 +86528,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86547,7 +86547,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86566,7 +86566,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86585,7 +86585,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86604,7 +86604,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86623,7 +86623,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86642,7 +86642,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86661,7 +86661,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86680,7 +86680,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -86699,7 +86699,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -88599,7 +88599,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88618,7 +88618,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88637,7 +88637,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88656,7 +88656,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88675,7 +88675,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88694,7 +88694,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88713,7 +88713,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88732,7 +88732,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88751,7 +88751,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88770,7 +88770,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88789,7 +88789,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Afiliados Risco Fraude"
     },
     {
@@ -88808,7 +88808,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88827,7 +88827,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88846,7 +88846,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88865,7 +88865,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88884,7 +88884,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88903,7 +88903,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88922,7 +88922,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88941,7 +88941,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88960,7 +88960,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88979,7 +88979,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -88998,7 +88998,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -89644,7 +89644,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89663,7 +89663,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89682,7 +89682,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89701,7 +89701,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89720,7 +89720,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89739,7 +89739,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89758,7 +89758,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89777,7 +89777,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89796,7 +89796,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89815,7 +89815,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -89834,7 +89834,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Paid_Performance_Max"
     },
     {
@@ -90898,7 +90898,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -90917,7 +90917,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -90936,7 +90936,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -90955,7 +90955,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -90974,7 +90974,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -90993,7 +90993,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -91012,7 +91012,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -91031,7 +91031,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -91050,7 +91050,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -91069,7 +91069,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -91088,7 +91088,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -91316,7 +91316,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91335,7 +91335,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91354,7 +91354,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91373,7 +91373,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91392,7 +91392,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91411,7 +91411,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91430,7 +91430,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91449,7 +91449,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91468,7 +91468,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91487,7 +91487,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91506,7 +91506,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91525,7 +91525,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91544,7 +91544,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91563,7 +91563,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91582,7 +91582,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91601,7 +91601,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91620,7 +91620,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91639,7 +91639,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91658,7 +91658,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91677,7 +91677,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91696,7 +91696,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91715,7 +91715,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -91734,7 +91734,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91753,7 +91753,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91772,7 +91772,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91791,7 +91791,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91810,7 +91810,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91829,7 +91829,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91848,7 +91848,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91867,7 +91867,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91886,7 +91886,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91905,7 +91905,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -91924,7 +91924,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -94869,7 +94869,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -94888,7 +94888,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -94907,7 +94907,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -94926,7 +94926,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -94945,7 +94945,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -94964,7 +94964,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -94983,7 +94983,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -95002,7 +95002,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -95021,7 +95021,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -95040,7 +95040,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -95059,7 +95059,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -95496,7 +95496,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95515,7 +95515,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95534,7 +95534,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95553,7 +95553,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95572,7 +95572,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95591,7 +95591,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95610,7 +95610,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95629,7 +95629,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95648,7 +95648,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95667,7 +95667,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95686,7 +95686,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -95705,7 +95705,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95724,7 +95724,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95743,7 +95743,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95762,7 +95762,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95781,7 +95781,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95800,7 +95800,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95819,7 +95819,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95838,7 +95838,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95857,7 +95857,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95876,7 +95876,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -95895,7 +95895,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Performance_Max"
     },
     {
@@ -96123,7 +96123,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96142,7 +96142,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96161,7 +96161,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96180,7 +96180,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96199,7 +96199,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96218,7 +96218,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96237,7 +96237,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96256,7 +96256,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96275,7 +96275,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96294,7 +96294,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96313,7 +96313,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -96541,7 +96541,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96560,7 +96560,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96579,7 +96579,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96598,7 +96598,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96617,7 +96617,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96636,7 +96636,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96655,7 +96655,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96674,7 +96674,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96693,7 +96693,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96712,7 +96712,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -96731,7 +96731,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -97377,7 +97377,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97396,7 +97396,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97415,7 +97415,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97434,7 +97434,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97453,7 +97453,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97472,7 +97472,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97491,7 +97491,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97510,7 +97510,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97529,7 +97529,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97548,7 +97548,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97567,7 +97567,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -97795,7 +97795,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97814,7 +97814,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97833,7 +97833,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97852,7 +97852,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97871,7 +97871,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97890,7 +97890,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97909,7 +97909,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97928,7 +97928,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97947,7 +97947,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97966,7 +97966,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -97985,7 +97985,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98213,7 +98213,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98232,7 +98232,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98251,7 +98251,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98270,7 +98270,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98289,7 +98289,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98308,7 +98308,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98327,7 +98327,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98346,7 +98346,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98365,7 +98365,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98384,7 +98384,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -98403,7 +98403,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -100094,7 +100094,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100113,7 +100113,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100132,7 +100132,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100151,7 +100151,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100170,7 +100170,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100189,7 +100189,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100208,7 +100208,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100227,7 +100227,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100246,7 +100246,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100265,7 +100265,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -100284,7 +100284,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -102184,7 +102184,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102203,7 +102203,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102222,7 +102222,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102241,7 +102241,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102260,7 +102260,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102279,7 +102279,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102298,7 +102298,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102317,7 +102317,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102336,7 +102336,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102355,7 +102355,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -102374,7 +102374,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -103856,7 +103856,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -103875,7 +103875,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -103894,7 +103894,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -103913,7 +103913,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -103932,7 +103932,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -103951,7 +103951,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -103970,7 +103970,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -103989,7 +103989,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -104008,7 +104008,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -104027,7 +104027,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -104046,7 +104046,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Organic"
     },
     {
@@ -104274,7 +104274,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104293,7 +104293,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104312,7 +104312,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104331,7 +104331,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104350,7 +104350,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104369,7 +104369,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104388,7 +104388,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104407,7 +104407,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104426,7 +104426,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104445,7 +104445,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104464,7 +104464,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104483,7 +104483,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104502,7 +104502,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104521,7 +104521,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104540,7 +104540,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104559,7 +104559,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104578,7 +104578,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104597,7 +104597,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104616,7 +104616,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104635,7 +104635,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104654,7 +104654,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -104673,7 +104673,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -108036,7 +108036,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108055,7 +108055,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108074,7 +108074,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108093,7 +108093,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108112,7 +108112,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108131,7 +108131,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108150,7 +108150,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108169,7 +108169,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108188,7 +108188,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108207,7 +108207,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -108226,7 +108226,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Reprocessamento"
     },
     {
@@ -109290,7 +109290,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109309,7 +109309,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109328,7 +109328,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109347,7 +109347,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109366,7 +109366,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109385,7 +109385,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109404,7 +109404,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109423,7 +109423,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109442,7 +109442,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109461,7 +109461,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -109480,7 +109480,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -110753,7 +110753,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110772,7 +110772,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110791,7 +110791,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110810,7 +110810,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110829,7 +110829,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110848,7 +110848,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110867,7 +110867,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110886,7 +110886,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110905,7 +110905,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110924,7 +110924,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -110943,7 +110943,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112216,7 +112216,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112235,7 +112235,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112254,7 +112254,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112273,7 +112273,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112292,7 +112292,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112311,7 +112311,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112330,7 +112330,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112349,7 +112349,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112368,7 +112368,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112387,7 +112387,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -112406,7 +112406,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -115142,7 +115142,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115161,7 +115161,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115180,7 +115180,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115199,7 +115199,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115218,7 +115218,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115237,7 +115237,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115256,7 +115256,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115275,7 +115275,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115294,7 +115294,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115313,7 +115313,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -115332,7 +115332,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -117232,7 +117232,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117251,7 +117251,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117270,7 +117270,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117289,7 +117289,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117308,7 +117308,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117327,7 +117327,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117346,7 +117346,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117365,7 +117365,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117384,7 +117384,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117403,7 +117403,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -117422,7 +117422,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator - Sale_Display"
     },
     {
@@ -122666,7 +122666,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122685,7 +122685,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122704,7 +122704,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122723,7 +122723,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122742,7 +122742,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122761,7 +122761,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122780,7 +122780,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122799,7 +122799,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122818,7 +122818,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122837,7 +122837,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -122856,7 +122856,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - General_Baixo Volume"
     },
     {
@@ -123084,7 +123084,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123103,7 +123103,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123122,7 +123122,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123141,7 +123141,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123160,7 +123160,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123179,7 +123179,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123198,7 +123198,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123217,7 +123217,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123236,7 +123236,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123255,7 +123255,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123274,7 +123274,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -123711,7 +123711,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123730,7 +123730,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123749,7 +123749,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123768,7 +123768,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123787,7 +123787,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123806,7 +123806,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123825,7 +123825,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123844,7 +123844,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123863,7 +123863,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123882,7 +123882,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -123901,7 +123901,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124338,7 +124338,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124357,7 +124357,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124376,7 +124376,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124395,7 +124395,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124414,7 +124414,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124433,7 +124433,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124452,7 +124452,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124471,7 +124471,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124490,7 +124490,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124509,7 +124509,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -124528,7 +124528,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125592,7 +125592,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125611,7 +125611,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125630,7 +125630,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125649,7 +125649,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125668,7 +125668,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125687,7 +125687,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125706,7 +125706,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125725,7 +125725,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125744,7 +125744,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125763,7 +125763,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -125782,7 +125782,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Owner PWA - Organic"
     },
     {
@@ -130190,7 +130190,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130209,7 +130209,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130228,7 +130228,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130247,7 +130247,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130266,7 +130266,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130285,7 +130285,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130304,7 +130304,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130323,7 +130323,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130342,7 +130342,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130361,7 +130361,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -130380,7 +130380,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -132907,7 +132907,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -132926,7 +132926,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -132945,7 +132945,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -132964,7 +132964,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -132983,7 +132983,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -133002,7 +133002,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -133021,7 +133021,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -133040,7 +133040,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -133059,7 +133059,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -133078,7 +133078,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -133097,7 +133097,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Top Afiliados"
     },
     {
@@ -133762,7 +133762,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133781,7 +133781,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133800,7 +133800,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133819,7 +133819,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133838,7 +133838,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133857,7 +133857,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133876,7 +133876,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133895,7 +133895,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133914,7 +133914,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133933,7 +133933,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -133952,7 +133952,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135434,7 +135434,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135453,7 +135453,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135472,7 +135472,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135491,7 +135491,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135510,7 +135510,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135529,7 +135529,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135548,7 +135548,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135567,7 +135567,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135586,7 +135586,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135605,7 +135605,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -135624,7 +135624,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -137524,7 +137524,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137543,7 +137543,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137562,7 +137562,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137581,7 +137581,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137600,7 +137600,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137619,7 +137619,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137638,7 +137638,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137657,7 +137657,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137676,7 +137676,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137695,7 +137695,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137714,7 +137714,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Indica Aí - Agents_Baixo Volume"
     },
     {
@@ -137942,7 +137942,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -137961,7 +137961,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -137980,7 +137980,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -137999,7 +137999,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -138018,7 +138018,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -138037,7 +138037,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -138056,7 +138056,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -138075,7 +138075,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -138094,7 +138094,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -138113,7 +138113,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -138132,7 +138132,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -143585,7 +143585,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143604,7 +143604,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143623,7 +143623,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143642,7 +143642,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143661,7 +143661,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143680,7 +143680,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143699,7 +143699,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143718,7 +143718,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143737,7 +143737,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143756,7 +143756,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -143775,7 +143775,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -146511,7 +146511,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146530,7 +146530,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146549,7 +146549,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146568,7 +146568,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146587,7 +146587,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146606,7 +146606,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146625,7 +146625,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146644,7 +146644,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146663,7 +146663,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146682,7 +146682,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -146701,7 +146701,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -147556,7 +147556,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147575,7 +147575,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147594,7 +147594,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147613,7 +147613,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147632,7 +147632,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147651,7 +147651,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147670,7 +147670,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147689,7 +147689,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147708,7 +147708,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147727,7 +147727,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147746,7 +147746,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147974,7 +147974,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -147993,7 +147993,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -148012,7 +148012,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -148031,7 +148031,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -148050,7 +148050,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -148069,7 +148069,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -148088,7 +148088,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -148107,7 +148107,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -148126,7 +148126,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -148145,7 +148145,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -148164,7 +148164,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -151318,7 +151318,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151337,7 +151337,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151356,7 +151356,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151375,7 +151375,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151394,7 +151394,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151413,7 +151413,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151432,7 +151432,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151451,7 +151451,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151470,7 +151470,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151489,7 +151489,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151508,7 +151508,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -151945,7 +151945,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -151964,7 +151964,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -151983,7 +151983,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -152002,7 +152002,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -152021,7 +152021,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -152040,7 +152040,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -152059,7 +152059,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -152078,7 +152078,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -152097,7 +152097,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -152116,7 +152116,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -152135,7 +152135,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_Organic"
     },
     {
@@ -153826,7 +153826,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -153845,7 +153845,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -153864,7 +153864,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -153883,7 +153883,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -153902,7 +153902,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -153921,7 +153921,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -153940,7 +153940,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -153959,7 +153959,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -153978,7 +153978,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -153997,7 +153997,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -154016,7 +154016,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "joao.coelho@aec.com.br",
-      "quartil": 4,
+      "quartil": 3,
       "planning_cluster": "Price Calculator_SEM non-branded"
     },
     {
@@ -155916,7 +155916,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -155935,7 +155935,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -155954,7 +155954,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -155973,7 +155973,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -155992,7 +155992,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -156011,7 +156011,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -156030,7 +156030,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -156049,7 +156049,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -156068,7 +156068,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -156087,7 +156087,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
@@ -156106,7 +156106,7 @@
       "impacto_audio": false,
       "confiança": "Alto",
       "email": "filipe.rodrigues@aec.com.br",
-      "quartil": 3,
+      "quartil": 4,
       "planning_cluster": "Price Calculator_Display"
     },
     {
